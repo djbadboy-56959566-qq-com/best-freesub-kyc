@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - djkyc
-  server: 82.152.132.211
-  port: 8044
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
-- name: 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
   server: 46.28.67.55
   port: 443
   udp: true
@@ -24,6 +17,41 @@ proxies:
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
+  server: 162.249.125.133
+  port: 443
+  udp: true
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - djkyc
+  server: hy2-new.aspidnet.xyz
+  port: 443
+  udp: true
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - djkyc
+  server: 154.46.31.106
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - djkyc
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -31,6 +59,9 @@ proxy-groups:
   - AUTO
   - 🇷🇴 罗马尼亚 (Romania) 01 - djkyc
   - 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
+  - 🇷🇴 罗马尼亚 (Romania) 03 - djkyc
+  - 🇷🇴 罗马尼亚 (Romania) 04 - djkyc
+  - 🇷🇴 罗马尼亚 (Romania) 05 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -38,5 +69,8 @@ proxy-groups:
   proxies:
   - 🇷🇴 罗马尼亚 (Romania) 01 - djkyc
   - 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
+  - 🇷🇴 罗马尼亚 (Romania) 03 - djkyc
+  - 🇷🇴 罗马尼亚 (Romania) 04 - djkyc
+  - 🇷🇴 罗马尼亚 (Romania) 05 - djkyc
 rules:
 - MATCH,PROXIES

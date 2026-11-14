@@ -5,48 +5,47 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - djkyc
-  server: 15.235.164.133
-  port: 19999
+  server: 68.183.235.122
+  port: 8080
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 02 - djkyc
-  server: 68.183.235.240
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 03 - djkyc
-  server: 149.88.23.207
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 04 - djkyc
-  server: 149.88.106.73
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇸🇬 新加坡 (Singapore) 05 - djkyc
-  server: 68.183.227.4
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 06 - djkyc
   server: 149.88.107.47
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇬 新加坡 (Singapore) 03 - djkyc
+  server: 149.88.107.74
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇬 新加坡 (Singapore) 04 - djkyc
+  server: 15.235.164.133
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇬 新加坡 (Singapore) 05 - djkyc
+  server: 149.88.106.73
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇬 新加坡 (Singapore) 06 - djkyc
+  server: 68.183.227.236
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 07 - djkyc
   server: 15.235.182.183
   port: 19999
@@ -55,26 +54,26 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇬 新加坡 (Singapore) 08 - djkyc
-  server: 68.183.227.236
+  server: 128.199.172.224
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 09 - djkyc
-  server: 149.88.107.74
+  server: 51.79.228.131
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇬 新加坡 (Singapore) 10 - djkyc
-  server: 149.88.106.74
-  port: 19999
+  server: 139.180.220.175
+  port: 8388
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  password: qpSevKaUXYQKvSjp
 - name: 🇸🇬 新加坡 (Singapore) 11 - djkyc
   server: 149.88.23.202
   port: 18000
@@ -84,102 +83,49 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇸🇬 新加坡 (Singapore) 12 - djkyc
-  server: 178.94.25.73
-  port: 10443
-  udp: true
-  type: vless
-  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
-- name: 🇸🇬 新加坡 (Singapore) 13 - djkyc
-  server: 51.79.228.131
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇸🇬 新加坡 (Singapore) 14 - djkyc
-  server: 68.183.227.45
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 15 - djkyc
   server: 128.1.186.132
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 13 - djkyc
+  server: 149.88.106.74
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇬 新加坡 (Singapore) 14 - djkyc
+  server: 149.88.23.207
+  port: 18000
+  udp: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 15 - djkyc
+  server: 68.183.227.45
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 16 - djkyc
-  server: 128.1.186.73
+  server: 68.183.235.240
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 17 - djkyc
-  server: 15.235.144.92
-  port: 1270
+  server: 68.183.227.4
+  port: 8080
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 18 - djkyc
-  server: 128.199.172.224
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 19 - djkyc
-  server: 68.183.235.122
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 20 - djkyc
-  server: 149.28.130.108
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: searchcreativejobsandshowcaseyourartistictalents.com
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 21 - djkyc
-  server: 138.2.73.238
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f87376e17da040ed04c9665ce8972930
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 22 - djkyc
-  server: 178.94.25.73
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 178.94.25.73
-- name: 🇸🇬 新加坡 (Singapore) 23 - djkyc
-  server: 140.245.62.225
-  port: 36442
-  udp: true
-  type: vless
-  uuid: 5269e0b4-0dff-4f97-e0c7-83130bacb009
-  flow: xtls-rprx-vision
-  tls: true
-  servername: xjpp.zjlo.top
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 24 - djkyc
   server: 67.159.52.81
   port: 443
   udp: true
@@ -192,57 +138,80 @@ proxies:
     short-id: feedbacc
   servername: sg.fasti.win
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 25 - djkyc
-  server: 5.34.177.164
-  port: 443
+- name: 🇸🇬 新加坡 (Singapore) 19 - djkyc
+  server: 207.148.124.12
+  port: 8443
   udp: true
   type: vless
-  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
-  flow: xtls-rprx-vision
+  uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
   tls: true
-  reality-opts:
-    public-key: cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA
-    short-id: b2efed6d157e7bb0
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 26 - djkyc
-  server: 86.38.247.109
-  port: 2087
-  udp: true
-  type: trojan
-  password: sshs8_6481354771
-  sni: ul-singapore1.09vpn.com
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 27 - djkyc
-  server: matrix.phonicsindia.mobi
-  port: 48994
-  udp: true
-  type: trojan
-  password: Z5lvhmLqSc
-  sni: m.microsoft.com
+  servername: www.bing.com
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 28 - djkyc
-  server: 178.94.25.73
-  port: 10444
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 20 - djkyc
+  server: 138.2.73.238
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 138.2.73.238
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 21 - djkyc
+  server: 140.245.62.225
+  port: 36442
   udp: true
   type: vless
-  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
+  uuid: 2633cbab-e901-4f5a-9a0f-18ff319d0d70
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  servername: video.yandex.ru
-  client-fingerprint: safari
-- name: 🇸🇬 新加坡 (Singapore) 29 - djkyc
-  server: 15.235.184.127
+  servername: xjpp.zjlo.top
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 22 - djkyc
+  server: 138.2.89.249
   port: 443
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: exploredigitaljobplatformandfindonlinework.com
+  type: hysteria2
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+- name: 🇸🇬 新加坡 (Singapore) 23 - djkyc
+  server: 15.235.144.92
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 30 - djkyc
+- name: 🇸🇬 新加坡 (Singapore) 24 - djkyc
+  server: 139.162.27.96
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  tls: true
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 25 - djkyc
+  server: sg1.xiaoliyu.cyou
+  port: 2056
+  udp: true
+  type: hysteria2
+  password: 8b64b840-a48d-4ac0-b10f-8f7d7081a0f1
+  sni: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 26 - djkyc
   server: 147.93.173.45
   port: 10444
   udp: true
@@ -255,19 +224,22 @@ proxies:
     short-id: 8debcf36f1cc69ff
   servername: video.yandex.ru
   client-fingerprint: safari
-- name: 🇸🇬 新加坡 (Singapore) 31 - djkyc
-  server: zfapi.zalolink.com
-  port: 30322
+- name: 🇸🇬 新加坡 (Singapore) 27 - djkyc
+  server: 141.193.213.21
+  port: 8443
   udp: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
+  type: vmess
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  alterId: 0
+  cipher: auto
   tls: true
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: 6a60e7e382d6
-  servername: psstatic.cdn.bcebos.com
-  client-fingerprint: ios
+  servername: matrix.phonicsindia.mobi
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: matrix.phonicsindia.mobi
 proxy-groups:
 - name: PROXIES
   type: select
@@ -300,10 +272,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 25 - djkyc
   - 🇸🇬 新加坡 (Singapore) 26 - djkyc
   - 🇸🇬 新加坡 (Singapore) 27 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 28 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 29 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 30 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 31 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -336,9 +304,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 25 - djkyc
   - 🇸🇬 新加坡 (Singapore) 26 - djkyc
   - 🇸🇬 新加坡 (Singapore) 27 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 28 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 29 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 30 - djkyc
-  - 🇸🇬 新加坡 (Singapore) 31 - djkyc
 rules:
 - MATCH,PROXIES

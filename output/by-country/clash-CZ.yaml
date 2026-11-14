@@ -16,7 +16,7 @@ proxies:
     public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
     short-id: e90360ec7cc61b20
   servername: udemy.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - djkyc
   server: 153.52.69.249
   port: 443
@@ -43,15 +43,6 @@ proxies:
     short-id: 23d0950d60bc0d5b
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇨🇿 捷克 (Czech) 04 - djkyc
-  server: 194.87.109.106
-  port: 443
-  udp: true
-  type: vless
-  uuid: d9274255-edf4-4944-bc62-6ef35cd2de40
-  tls: true
-  servername: currant.asynchronous.site
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,7 +51,6 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - djkyc
   - 🇨🇿 捷克 (Czech) 02 - djkyc
   - 🇨🇿 捷克 (Czech) 03 - djkyc
-  - 🇨🇿 捷克 (Czech) 04 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,6 +59,5 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - djkyc
   - 🇨🇿 捷克 (Czech) 02 - djkyc
   - 🇨🇿 捷克 (Czech) 03 - djkyc
-  - 🇨🇿 捷克 (Czech) 04 - djkyc
 rules:
 - MATCH,PROXIES

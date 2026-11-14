@@ -15,7 +15,7 @@
         "server_name": "udemy.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -67,26 +67,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 04 - djkyc",
-      "server": "194.87.109.106",
-      "server_port": 443,
-      "uuid": "d9274255-edf4-4944-bc62-6ef35cd2de40",
-      "tls": {
-        "enabled": true,
-        "server_name": "currant.asynchronous.site",
-        "insecure": false
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - djkyc",
         "🇨🇿 捷克 (Czech) 02 - djkyc",
-        "🇨🇿 捷克 (Czech) 03 - djkyc",
-        "🇨🇿 捷克 (Czech) 04 - djkyc"
+        "🇨🇿 捷克 (Czech) 03 - djkyc"
       ]
     },
     {
@@ -95,8 +82,7 @@
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - djkyc",
         "🇨🇿 捷克 (Czech) 02 - djkyc",
-        "🇨🇿 捷克 (Czech) 03 - djkyc",
-        "🇨🇿 捷克 (Czech) 04 - djkyc"
+        "🇨🇿 捷克 (Czech) 03 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

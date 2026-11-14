@@ -20,8 +20,24 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - djkyc",
+      "server": "152.67.115.203",
+      "server_port": 443,
+      "password": "633bc3be486b646190661ac2387c150a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "850a3fb1cd33a28f12d837578ae1a2e7"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - djkyc",
       "server": "v1au.mateflora.com",
       "server_port": 443,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -31,28 +47,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
-          "short_id": "54cca3c1c1c7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - djkyc",
-      "server": "doghkzf.zalolink.com",
-      "server_port": 48158,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -64,8 +59,8 @@
     {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 04 - djkyc",
-      "server": "zfapi.zalolink.com",
-      "server_port": 54528,
+      "server": "doghkzf.zalolink.com",
+      "server_port": 48158,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -73,7 +68,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,

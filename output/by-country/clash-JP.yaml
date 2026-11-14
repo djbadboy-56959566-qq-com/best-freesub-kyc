@@ -5,26 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - djkyc
-  server: 168.138.205.100
-  port: 53758
+  server: 149.22.87.241
+  port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
-  password: Bwlqh7GcFB
+  password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 02 - djkyc
-  server: 31.76.91.70
+  server: 149.22.87.241
   port: 443
   udp: true
-  type: vless
-  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
-    short-id: bd6f67b6b2152b45
-  servername: fuji.etherhub.cc
-  client-fingerprint: firefox
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 03 - djkyc
+  server: 149.22.87.241
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇯🇵 日本 (Japan) 04 - djkyc
+  server: 168.110.63.247
+  port: 8081
+  udp: true
+  type: vmess
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇯🇵 日本 (Japan) 05 - djkyc
+  server: 8.211.175.236
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 06 - djkyc
   server: 158.101.151.157
   port: 443
   udp: true
@@ -37,68 +57,35 @@ proxies:
     short-id: 684c7531e599dec0
   servername: www.microsoft.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 04 - djkyc
-  server: 8.211.175.236
+- name: 🇯🇵 日本 (Japan) 07 - djkyc
+  server: 31.76.91.70
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
+    short-id: bd6f67b6b2152b45
+  servername: fuji.etherhub.cc
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 08 - djkyc
+  server: 43.130.234.128
   port: 8443
   udp: true
   type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 05 - djkyc
-  server: 168.138.43.75
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 06 - djkyc
+  password: Yuike2026cat
+  sni: 43-130-234-128.sslip.io
+  skip-cert-verify: false
+- name: 🇯🇵 日本 (Japan) 09 - djkyc
   server: 138.3.208.26
   port: 50160
   udp: true
   type: hysteria2
   password: 184cdec28da5a09450803c8debcd2cc9
-  sni: 'off'
+  sni: 138.3.208.26
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 07 - djkyc
-  server: 84.247.155.196
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 08 - djkyc
-  server: 168.110.45.41
-  port: 23444
-  udp: true
-  type: vless
-  uuid: ee2112e4-1e58-4f77-b162-5ef869358df9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c
-    short-id: 119c9e68498f5900
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 09 - djkyc
-  server: jp.yi-yi.xyz
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 36c06e11-028b-40a1-a91f-c8f38f03e829
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: g3T4dVyrbNixv7HvSMlh91cYBa5kEsZCEInB7Xc_AEY
-    short-id: 956d8072a694ff37
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇯🇵 日本 (Japan) 10 - djkyc
   server: 84.247.155.196
   port: 80
@@ -107,37 +94,29 @@ proxies:
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
 - name: 🇯🇵 日本 (Japan) 11 - djkyc
-  server: 142.91.101.39
-  port: 627
-  udp: true
-  type: vless
-  uuid: 569b5df8-ffab-4e9f-b999-21479d7a62a6
-  tls: true
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-- name: 🇯🇵 日本 (Japan) 12 - djkyc
-  server: 13.140.248.125
+  server: 84.247.155.196
   port: 443
   udp: true
-  type: vless
-  uuid: 4f82d72b-9644-c39a-ac6b-abbf15a862aa
-  tls: true
-  servername: xray-p1vi234h-lunar-forest-6.cloady.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /e3e2aa65089989f0
-    headers:
-      Host: xray-p1vi234h-lunar-forest-6.cloady.io
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 12 - djkyc
+  server: jpa.123069.xyz
+  port: 53758
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
 - name: 🇯🇵 日本 (Japan) 13 - djkyc
-  server: 131.143.180.53
+  server: 141.11.139.102
+  port: 32515
+  udp: true
+  type: vmess
+  uuid: 081dbf5a-d8b6-40c8-96f8-3c4ca9f50442
+  alterId: 0
+  cipher: auto
+- name: 🇯🇵 日本 (Japan) 14 - djkyc
+  server: 104.27.46.35
   port: 443
   udp: true
   type: vless
@@ -145,12 +124,19 @@ proxies:
   tls: true
   servername: jp3.yohototo.top
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 15 - djkyc
+  server: 193.123.160.109
+  port: 8443
+  udp: true
+  type: trojan
+  password: F3NzMNuYnG7akU2mSlBY
+  sni: www.microsoft.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -169,6 +155,8 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 11 - djkyc
   - 🇯🇵 日本 (Japan) 12 - djkyc
   - 🇯🇵 日本 (Japan) 13 - djkyc
+  - 🇯🇵 日本 (Japan) 14 - djkyc
+  - 🇯🇵 日本 (Japan) 15 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -187,5 +175,7 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 11 - djkyc
   - 🇯🇵 日本 (Japan) 12 - djkyc
   - 🇯🇵 日本 (Japan) 13 - djkyc
+  - 🇯🇵 日本 (Japan) 14 - djkyc
+  - 🇯🇵 日本 (Japan) 15 - djkyc
 rules:
 - MATCH,PROXIES
