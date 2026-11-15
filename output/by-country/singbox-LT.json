@@ -7,25 +7,25 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - djkyc",
       "server": "195.238.126.20",
-      "server_port": 9086,
+      "server_port": 9002,
       "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
+      "password": "b8KkNDjEd5QqFyRm"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 02 - djkyc",
       "server": "195.238.126.20",
-      "server_port": 9012,
+      "server_port": 9068,
       "method": "aes-256-cfb",
-      "password": "xaupMUvhptwxdDUg"
+      "password": "mwgRg9hRq3b4Qnwb"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 03 - djkyc",
-      "server": "195.238.126.20",
-      "server_port": 9068,
+      "server": "195.238.126.84",
+      "server_port": 9039,
       "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
+      "password": "qYEN5HX4JKeVCdEC"
     },
     {
       "type": "shadowsocks",
@@ -36,6 +36,38 @@
       "password": "y9VURyNzJWNRYEGQ"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - djkyc",
+      "server": "195.238.126.20",
+      "server_port": 9078,
+      "method": "aes-256-cfb",
+      "password": "JCJpbRbQZNw9XFZG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - djkyc",
+      "server": "195.238.126.20",
+      "server_port": 9086,
+      "method": "aes-256-cfb",
+      "password": "37Z4TFCYhfxcpc9Q"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - djkyc",
+      "server": "195.238.126.20",
+      "server_port": 9011,
+      "method": "aes-256-cfb",
+      "password": "M3t2ZEQcMGRWBjRa"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 08 - djkyc",
+      "server": "195.238.126.20",
+      "server_port": 9045,
+      "method": "aes-256-cfb",
+      "password": "Lp27rqyJq72bZsqX"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -43,7 +75,11 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - djkyc",
         "🇱🇹 立陶宛 (Lithuania) 02 - djkyc",
         "🇱🇹 立陶宛 (Lithuania) 03 - djkyc",
-        "🇱🇹 立陶宛 (Lithuania) 04 - djkyc"
+        "🇱🇹 立陶宛 (Lithuania) 04 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 05 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 06 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 07 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 08 - djkyc"
       ]
     },
     {
@@ -53,7 +89,11 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - djkyc",
         "🇱🇹 立陶宛 (Lithuania) 02 - djkyc",
         "🇱🇹 立陶宛 (Lithuania) 03 - djkyc",
-        "🇱🇹 立陶宛 (Lithuania) 04 - djkyc"
+        "🇱🇹 立陶宛 (Lithuania) 04 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 05 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 06 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 07 - djkyc",
+        "🇱🇹 立陶宛 (Lithuania) 08 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
