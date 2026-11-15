@@ -5,6 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - djkyc
+  server: 162.249.125.133
+  port: 443
+  udp: true
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
   server: 46.28.67.55
   port: 443
   udp: true
@@ -16,42 +26,15 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
-  server: hy2-new.aspidnet.xyz
-  port: 443
-  udp: true
-  type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
+  client-fingerprint: firefox
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - djkyc
-  server: 162.249.125.133
-  port: 443
-  udp: true
-  type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - djkyc
   server: 185.156.44.99
   port: 443
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: css.rbxcdn.com
+  sni: www.amazon.com
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - djkyc
-  server: bogging-eyeteeth-fly.freesocks.work
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,8 +43,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 01 - djkyc
   - 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
   - 🇷🇴 罗马尼亚 (Romania) 03 - djkyc
-  - 🇷🇴 罗马尼亚 (Romania) 04 - djkyc
-  - 🇷🇴 罗马尼亚 (Romania) 05 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -70,7 +51,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 01 - djkyc
   - 🇷🇴 罗马尼亚 (Romania) 02 - djkyc
   - 🇷🇴 罗马尼亚 (Romania) 03 - djkyc
-  - 🇷🇴 罗马尼亚 (Romania) 04 - djkyc
-  - 🇷🇴 罗马尼亚 (Romania) 05 - djkyc
 rules:
 - MATCH,PROXIES
