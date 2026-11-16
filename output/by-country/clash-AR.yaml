@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇬 埃及 (Egypt) 01 - djkyc
-  server: 41.196.0.128
+- name: 🇦🇷 阿根廷 (Argentina) 01 - djkyc
+  server: 186.122.177.79
   port: 443
   udp: true
   type: vless
@@ -13,21 +13,21 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: tyklNbOfb-FctP-J1OQa1yUHPY9p4co70RyYuRe9nR8
-    short-id: f68db13f
-  servername: eg1.gofizz.in
+    public-key: pBEW9XYZQsXxjgt44pCQcxoEOe-B1CdxaTdTnL2QhAA
+    short-id: a5d67406
+  servername: ar1.gofizz.in
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇬 埃及 (Egypt) 01 - djkyc
+  - 🇦🇷 阿根廷 (Argentina) 01 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇬 埃及 (Egypt) 01 - djkyc
+  - 🇦🇷 阿根廷 (Argentina) 01 - djkyc
 rules:
 - MATCH,PROXIES

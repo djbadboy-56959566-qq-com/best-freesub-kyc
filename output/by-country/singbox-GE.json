@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇬 埃及 (Egypt) 01 - djkyc",
-      "server": "41.196.0.128",
+      "tag": "🇬🇪 格鲁吉亚 (Georgia) 01 - djkyc",
+      "server": "194.135.119.135",
       "server_port": 443,
       "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "eg1.gofizz.in",
+        "server_name": "ge1.gofizzin.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tyklNbOfb-FctP-J1OQa1yUHPY9p4co70RyYuRe9nR8",
-          "short_id": "f68db13f"
+          "public_key": "fVo5hYUD3VkxEetcXSMVWp7hjvz4YrKLNHDhGhn-d3M",
+          "short_id": "0640a12b"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇬 埃及 (Egypt) 01 - djkyc"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - djkyc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇬 埃及 (Egypt) 01 - djkyc"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
