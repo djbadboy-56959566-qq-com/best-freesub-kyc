@@ -4,8 +4,29 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - djkyc",
+      "server": "188.132.176.153",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr2.gofizzin.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0dZQFilWbZVW8qj2DqVgiXZndL20ZuxmSuS4KyGRbQc",
+          "short_id": "fa273564"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - djkyc",
       "server": "153.56.210.134",
       "server_port": 57251,
       "password": "ff0343ad-1c9f-4986-8c62-c01935b508ca",
@@ -17,22 +38,6 @@
       "obfs": {
         "type": "salamander",
         "password": "0ee2089e-70df-4c30-bfea-1fb9be61d93e"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - djkyc",
-      "server": "153.56.210.134",
-      "server_port": 38045,
-      "password": "a81a7b45-dd70-42ef-822f-ef467f944382",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "642516f2-f9bd-41ce-9904-dee699c39cf9"
       }
     },
     {
@@ -52,8 +57,45 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇷 土耳其 (Turkey) 04 - djkyc",
+      "server": "153.56.210.134",
+      "server_port": 38045,
+      "password": "a81a7b45-dd70-42ef-822f-ef467f944382",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "642516f2-f9bd-41ce-9904-dee699c39cf9"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - djkyc",
+      "server": "212.98.224.35",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr1.gofizzin.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9_UhwEt_9pf8WahM1K9O6-_0vAK6q0uiNGFoHBO7s3A",
+          "short_id": "0e3e4d96"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - djkyc",
       "server": "62.133.63.45",
       "server_port": 8444,
       "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
@@ -76,60 +118,19 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - djkyc",
-      "server": "185.246.155.91",
-      "server_port": 10103,
-      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko",
-          "short_id": "6859f5b59e55aa30"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - djkyc",
-      "server": "157.254.38.210",
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - djkyc",
+      "server": "sclass-b1.catcat321.com",
       "server_port": 20027,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": false,
+        "server_name": "sclass-b1.catcat321.com",
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 07 - djkyc",
-      "server": "185.39.204.117",
-      "server_port": 10002,
-      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
-      "tls": {
-        "enabled": true,
-        "server_name": "tr2.vpnjantit.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vpnjantit"
       }
     },
     {
@@ -141,15 +142,28 @@
       "tls": {
         "enabled": true,
         "server_name": "2c74e5t.tr3.h1clayd.click",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇷 土耳其 (Turkey) 09 - djkyc",
+      "server": "panel.autonetshop.ir",
+      "server_port": 43345,
+      "password": "d1gkicdgem3bsoaa",
+      "tls": {
+        "enabled": true,
+        "server_name": "panel.autonetshop.ir",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "km9oqmefh2km1i5n"
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 09 - djkyc",
+      "tag": "🇹🇷 土耳其 (Turkey) 10 - djkyc",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -158,7 +172,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -180,7 +194,8 @@
         "🇹🇷 土耳其 (Turkey) 06 - djkyc",
         "🇹🇷 土耳其 (Turkey) 07 - djkyc",
         "🇹🇷 土耳其 (Turkey) 08 - djkyc",
-        "🇹🇷 土耳其 (Turkey) 09 - djkyc"
+        "🇹🇷 土耳其 (Turkey) 09 - djkyc",
+        "🇹🇷 土耳其 (Turkey) 10 - djkyc"
       ]
     },
     {
@@ -195,7 +210,8 @@
         "🇹🇷 土耳其 (Turkey) 06 - djkyc",
         "🇹🇷 土耳其 (Turkey) 07 - djkyc",
         "🇹🇷 土耳其 (Turkey) 08 - djkyc",
-        "🇹🇷 土耳其 (Turkey) 09 - djkyc"
+        "🇹🇷 土耳其 (Turkey) 09 - djkyc",
+        "🇹🇷 土耳其 (Turkey) 10 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

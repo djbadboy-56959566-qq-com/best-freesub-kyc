@@ -4,8 +4,153 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
+      "server": "178.162.147.131",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zovira.me",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OH9jKzqAqEg98VDxmxReqrC_jbJWNwr-ipj2cNRgazc",
+          "short_id": "2237b916"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
+      "server": "81.171.14.72",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zovira.me",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OH9jKzqAqEg98VDxmxReqrC_jbJWNwr-ipj2cNRgazc",
+          "short_id": "2237b916"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
+      "server": "147.45.47.101",
+      "server_port": 8443,
+      "uuid": "27f26dee-9cf1-4cca-93f8-9ac23d311408",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
+      "server": "37.235.247.81",
+      "server_port": 8443,
+      "uuid": "2ae0670d-0bdf-409e-9a55-4e970252d378",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
+      "server": "185.223.171.1",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ee1.gofizzin.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "z46-GwLD2TvzK2o95okMP7IMNPUfwYHmqt2JV6nJ03I",
+          "short_id": "8c9f899dba63f6c7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
+      "server": "45.151.70.116",
+      "server_port": 443,
+      "uuid": "6f2857ee-4d43-417f-8a60-6f29becf061f",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "O-B_Lb2sUV9VaUIv0_d6gVMA20oSKEd1wwyZ5vJYvh8",
+          "short_id": "836c3060"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
+      "server": "87.232.116.20",
+      "server_port": 443,
+      "uuid": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
+      "tls": {
+        "enabled": true,
+        "server_name": "fafeqdhlett2p5la6d.cdn.cachefleet.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "67h2o3erm0t9imsj"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
       "server": "185.22.153.117",
       "server_port": 18443,
       "method": "aes-256-gcm",
@@ -13,7 +158,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
+      "tag": "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
+      "server": "201.51.12.98",
+      "server_port": 443,
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "tls": {
+        "enabled": true,
+        "server_name": "vps3.nemnogogo.com",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "mobile.api.Event"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 10 - djkyc",
       "server": "201.24.121.243",
       "server_port": 443,
       "uuid": "32b5ca9b-3f81-4031-965d-e8b074216e8d",
@@ -36,7 +204,44 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
+      "tag": "🇷🇺 俄罗斯 (Russia) 11 - djkyc",
+      "server": "185.39.204.117",
+      "server_port": 10002,
+      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr2.vpnjantit.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vpnjantit"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 12 - djkyc",
+      "server": "nl.notvpn.su",
+      "server_port": 443,
+      "uuid": "57e41f93-4603-425c-aaf9-7fe8456f5266",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "philips.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "51UVgXX5T1AUqqVqhoIJ6YFwbe5Bv8OSqkieGm_Ys0c",
+          "short_id": "ad02ce86"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 13 - djkyc",
       "server": "212.41.8.76",
       "server_port": 13443,
       "uuid": "a628c583-24a8-4ce5-98ad-c6458abf1cc4",
@@ -45,7 +250,7 @@
         "server_name": "s3.storage.selcloud.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -65,7 +270,17 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 03 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 10 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 11 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 12 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 13 - djkyc"
       ]
     },
     {
@@ -74,7 +289,17 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 03 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 10 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 11 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 12 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 13 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - djkyc
-  server: 198.16.113.220
-  port: 8443
-  udp: true
-  type: vless
-  uuid: eb6fbbdd-669b-4055-9379-4eeba938578a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇷 IR 02 - djkyc
   server: 198.16.113.222
   port: 8443
   udp: true
@@ -30,7 +17,46 @@ proxies:
     short-id: 69984b9e02545831
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇮🇷 IR 02 - djkyc
+  server: 198.16.113.220
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 98a24806-141a-43d3-b094-bd66c4eb93b8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
+    short-id: 69984b9e02545831
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇮🇷 IR 03 - djkyc
+  server: 50.7.245.202
+  port: 8443
+  udp: true
+  type: vless
+  uuid: eb6fbbdd-669b-4055-9379-4eeba938578a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
+    short-id: 69984b9e02545831
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇷 IR 04 - djkyc
+  server: 198.16.113.221
+  port: 8443
+  udp: true
+  type: vless
+  uuid: eb6fbbdd-669b-4055-9379-4eeba938578a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
+    short-id: 69984b9e02545831
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇷 IR 05 - djkyc
   server: 198.16.113.219
   port: 8443
   udp: true
@@ -43,12 +69,12 @@ proxies:
     short-id: 69984b9e02545831
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇮🇷 IR 04 - djkyc
+- name: 🇮🇷 IR 06 - djkyc
   server: 198.16.113.218
   port: 8443
   udp: true
   type: vless
-  uuid: 98a24806-141a-43d3-b094-bd66c4eb93b8
+  uuid: eb6fbbdd-669b-4055-9379-4eeba938578a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -56,21 +82,6 @@ proxies:
     short-id: 69984b9e02545831
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇮🇷 IR 05 - djkyc
-  server: 185.178.208.167
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4eebdec5-08eb-4772-a0e6-35fec4c91cb0
-  tls: true
-  servername: uwugirl.dev
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /player/collect/9c8514f9552d/
-    headers:
-      Host: speakpro.lol
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,6 +92,7 @@ proxy-groups:
   - 🇮🇷 IR 03 - djkyc
   - 🇮🇷 IR 04 - djkyc
   - 🇮🇷 IR 05 - djkyc
+  - 🇮🇷 IR 06 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -91,5 +103,6 @@ proxy-groups:
   - 🇮🇷 IR 03 - djkyc
   - 🇮🇷 IR 04 - djkyc
   - 🇮🇷 IR 05 - djkyc
+  - 🇮🇷 IR 06 - djkyc
 rules:
 - MATCH,PROXIES

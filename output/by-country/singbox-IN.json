@@ -46,6 +46,110 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 03 - djkyc",
+      "server": "85.234.100.32",
+      "server_port": 443,
+      "uuid": "c1208c5a-2350-0003-affd-fc41b4319286",
+      "tls": {
+        "enabled": true,
+        "server_name": "decdn-28.nome-rkp.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/",
+        "headers": {
+          "Host": "decdn-28.nome-rkp.net"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳 印度 (India) 04 - djkyc",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 05 - djkyc",
+      "server": "13.140.253.35",
+      "server_port": 443,
+      "uuid": "06a5afa1-2bbc-a5d1-1770-becd1089c636",
+      "tls": {
+        "enabled": true,
+        "server_name": "xray-dmr3b3hy-calm-maple-7.cloady.io",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/0175469f14317d82",
+        "headers": {
+          "Host": "xray-dmr3b3hy-calm-maple-7.cloady.io"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 06 - djkyc",
+      "server": "188.114.99.137",
+      "server_port": 443,
+      "uuid": "c1208c5a-2350-0003-affd-fc41b4319286",
+      "tls": {
+        "enabled": true,
+        "server_name": "decdn-28.nome-rkp.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/",
+        "headers": {
+          "Host": "decdn-28.nome-rkp.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 07 - djkyc",
+      "server": "decdn-28.nome-rkp.net",
+      "server_port": 443,
+      "uuid": "c1208c5a-2350-0003-affd-fc41b4319286",
+      "tls": {
+        "enabled": true,
+        "server_name": "decdn-28.nome-rkp.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/",
+        "headers": {
+          "Host": "decdn-28.nome-rkp.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 08 - djkyc",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -64,7 +168,12 @@
         "auto",
         "🇮🇳 印度 (India) 01 - djkyc",
         "🇮🇳 印度 (India) 02 - djkyc",
-        "🇮🇳 印度 (India) 03 - djkyc"
+        "🇮🇳 印度 (India) 03 - djkyc",
+        "🇮🇳 印度 (India) 04 - djkyc",
+        "🇮🇳 印度 (India) 05 - djkyc",
+        "🇮🇳 印度 (India) 06 - djkyc",
+        "🇮🇳 印度 (India) 07 - djkyc",
+        "🇮🇳 印度 (India) 08 - djkyc"
       ]
     },
     {
@@ -73,7 +182,12 @@
       "outbounds": [
         "🇮🇳 印度 (India) 01 - djkyc",
         "🇮🇳 印度 (India) 02 - djkyc",
-        "🇮🇳 印度 (India) 03 - djkyc"
+        "🇮🇳 印度 (India) 03 - djkyc",
+        "🇮🇳 印度 (India) 04 - djkyc",
+        "🇮🇳 印度 (India) 05 - djkyc",
+        "🇮🇳 印度 (India) 06 - djkyc",
+        "🇮🇳 印度 (India) 07 - djkyc",
+        "🇮🇳 印度 (India) 08 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

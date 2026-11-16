@@ -14,11 +14,12 @@
     {
       "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 02 - djkyc",
-      "server": "99.86.77.123",
+      "server": "www.true.th",
       "server_port": 80,
       "uuid": "f4c5605a-8424-441e-b23d-d6384d012c28",
       "transport": {
         "type": "ws",
+        "path": "/",
         "headers": {
           "Host": "dcm4kwis2exkw.cloudfront.net"
         }
