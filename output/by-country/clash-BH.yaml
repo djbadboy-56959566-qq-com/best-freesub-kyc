@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇩 摩尔多瓦 (Moldova) 01 - djkyc
-  server: 91.229.239.31
+- name: 🇧🇭 BH 01 - djkyc
+  server: bh1.vpnjantit.com
   port: 443
   udp: true
   type: vless
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  uuid: b36a16e4-ded8-11f1-bdea-5254b0a2c347
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: dB_0SVZC1kSyoO7HGojy4RX-xeT36JFMBYntBytwzTU
-    short-id: e09a99b8
-  servername: md1.gofizzin.com
-  client-fingerprint: firefox
+    public-key: lDEkUokSL-mrM1jsH8UKs8-3cfJMvkxhY7k37iBkFi4
+    short-id: 32b72239bc69220e
+  servername: cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - djkyc
+  - 🇧🇭 BH 01 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - djkyc
+  - 🇧🇭 BH 01 - djkyc
 rules:
 - MATCH,PROXIES

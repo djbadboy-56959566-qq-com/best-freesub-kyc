@@ -4,51 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - djkyc",
-      "server": "65.108.240.210",
-      "server_port": 39018,
-      "uuid": "8ca123a8-720b-47c5-bd0c-637431418b09",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - djkyc",
-      "server": "85.192.49.126",
-      "server_port": 443,
-      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi3.gofizzin.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ATdIZVxBUo5bVQJtcoWBU1k8qlHdNniJ2gF1iDc8rEQ",
-          "short_id": "76efb045"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - djkyc",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - djkyc",
       "server": "157.180.98.124",
       "server_port": 49659,
       "uuid": "88a558b1-9645-42f3-89e5-341570d8486d",
@@ -69,7 +26,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - djkyc",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - djkyc",
       "server": "94.183.164.119",
       "server_port": 24433,
       "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
@@ -80,75 +37,39 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - djkyc",
-      "server": "177.202.75.56",
-      "server_port": 443,
-      "password": "146d567c-6335-4e63-a8aa-7ec068642440",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi1.obxodvpn.us",
-        "insecure": false
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - djkyc",
+      "server": "45.144.234.157",
+      "server_port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "45.144.234.157"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - djkyc",
-      "server": "209.94.90.47",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - djkyc",
+      "server": "198.202.24.142",
       "server_port": 2083,
       "uuid": "a6ad7987-f17e-41fa-a752-72db9a725eb2",
       "tls": {
         "enabled": true,
         "server_name": "vipfree.dr-ping.ir",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
           "Host": "vipfree.dr-ping.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 08 - djkyc",
-      "server": "196.196.208.20",
-      "server_port": 443,
-      "uuid": "2208b003-78b1-453c-b5ca-ce847ff0efd6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "45b545t.fi7.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "jRHg94HymqCnI9LLFHMBxvi9URv_AOMgJxhLkOVuCl8",
-          "short_id": "0bfd7d104dcc9cae"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 09 - djkyc",
-      "server": "129.101.100.219",
-      "server_port": 443,
-      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "db-28.topp-con.xyz",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
         }
       }
     },
@@ -160,12 +81,7 @@
         "🇫🇮 芬兰 (Finland) 01 - djkyc",
         "🇫🇮 芬兰 (Finland) 02 - djkyc",
         "🇫🇮 芬兰 (Finland) 03 - djkyc",
-        "🇫🇮 芬兰 (Finland) 04 - djkyc",
-        "🇫🇮 芬兰 (Finland) 05 - djkyc",
-        "🇫🇮 芬兰 (Finland) 06 - djkyc",
-        "🇫🇮 芬兰 (Finland) 07 - djkyc",
-        "🇫🇮 芬兰 (Finland) 08 - djkyc",
-        "🇫🇮 芬兰 (Finland) 09 - djkyc"
+        "🇫🇮 芬兰 (Finland) 04 - djkyc"
       ]
     },
     {
@@ -175,12 +91,7 @@
         "🇫🇮 芬兰 (Finland) 01 - djkyc",
         "🇫🇮 芬兰 (Finland) 02 - djkyc",
         "🇫🇮 芬兰 (Finland) 03 - djkyc",
-        "🇫🇮 芬兰 (Finland) 04 - djkyc",
-        "🇫🇮 芬兰 (Finland) 05 - djkyc",
-        "🇫🇮 芬兰 (Finland) 06 - djkyc",
-        "🇫🇮 芬兰 (Finland) 07 - djkyc",
-        "🇫🇮 芬兰 (Finland) 08 - djkyc",
-        "🇫🇮 芬兰 (Finland) 09 - djkyc"
+        "🇫🇮 芬兰 (Finland) 04 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
