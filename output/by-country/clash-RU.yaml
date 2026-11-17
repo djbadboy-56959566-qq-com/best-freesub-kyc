@@ -5,32 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - djkyc
-  server: 147.45.47.101
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 27f26dee-9cf1-4cca-93f8-9ac23d311408
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  servername: apple.com
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 02 - djkyc
-  server: 81.171.14.72
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: OH9jKzqAqEg98VDxmxReqrC_jbJWNwr-ipj2cNRgazc
-    short-id: 2237b916
-  servername: zovira.me
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 03 - djkyc
   server: 178.162.147.131
   port: 443
   udp: true
@@ -43,6 +17,32 @@ proxies:
     short-id: 2237b916
   servername: zovira.me
   client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 02 - djkyc
+  server: 147.45.47.101
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 27f26dee-9cf1-4cca-93f8-9ac23d311408
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  servername: apple.com
+  client-fingerprint: ''
+- name: 🇷🇺 俄罗斯 (Russia) 03 - djkyc
+  server: 37.235.247.81
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 2ae0670d-0bdf-409e-9a55-4e970252d378
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  servername: apple.com
+  client-fingerprint: ''
 - name: 🇷🇺 俄罗斯 (Russia) 04 - djkyc
   server: 185.79.19.7
   port: 443
@@ -57,43 +57,6 @@ proxies:
   servername: fazuno.net
   client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 05 - djkyc
-  server: 5.253.86.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
-    short-id: fa1754221e4c5f9e
-  servername: nl3.gofizz.in
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 06 - djkyc
-  server: 185.79.19.8
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: YLcEO7lE6TeHKOMwRMkzLwaka7JOCbV8WCQ15eQVWEE
-    short-id: 1d482377da
-  servername: fazuno.net
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 07 - djkyc
-  server: 178.130.46.226
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3619ae0e-bd3a-458c-bb0a-c0479019d9ec
-  flow: xtls-rprx-vision
-  tls: true
-  servername: serv1.fishtohome.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 08 - djkyc
   server: 185.231.101.94
   port: 443
   udp: true
@@ -106,15 +69,26 @@ proxies:
     short-id: 51057fb54d2364f4
   servername: fuzora.net
   client-fingerprint: edge
-- name: 🇷🇺 俄罗斯 (Russia) 09 - djkyc
+- name: 🇷🇺 俄罗斯 (Russia) 06 - djkyc
+  server: 178.130.46.226
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3619ae0e-bd3a-458c-bb0a-c0479019d9ec
+  flow: xtls-rprx-vision
+  tls: true
+  servername: serv1.fishtohome.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 07 - djkyc
   server: 185.22.153.117
   port: 18443
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🇷🇺 俄罗斯 (Russia) 10 - djkyc
-  server: 201.51.12.98
+- name: 🇷🇺 俄罗斯 (Russia) 08 - djkyc
+  server: 201.24.116.192
   port: 443
   udp: true
   type: vless
@@ -126,22 +100,15 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: 🇷🇺 俄罗斯 (Russia) 11 - djkyc
-  server: 212.41.8.76
-  port: 13443
+- name: 🇷🇺 俄罗斯 (Russia) 09 - djkyc
+  server: 103.88.243.142
+  port: 11592
   udp: true
-  type: vless
-  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
-  tls: true
-  reality-opts:
-    public-key: d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc
-    short-id: 9de815e2
-  servername: s3.storage.selcloud.ru
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇷🇺 俄罗斯 (Russia) 12 - djkyc
+  type: hysteria2
+  password: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 10 - djkyc
   server: 201.24.121.243
   port: 443
   udp: true
@@ -154,44 +121,13 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vlgrpc
-- name: 🇷🇺 俄罗斯 (Russia) 13 - djkyc
-  server: 176.98.176.60
-  port: 443
+- name: 🇷🇺 俄罗斯 (Russia) 11 - djkyc
+  server: 130.49.189.158
+  port: 43558
   udp: true
-  type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mosaic.topp-con.xyz
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 14 - djkyc
-  server: 95.129.236.117
-  port: 443
-  udp: true
-  type: vless
-  uuid: 77998cc6-8a4d-4251-b974-ebff48a84c4d
-  tls: true
-  servername: cdn.dash.gearmonster.org
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /edge/node8/push
-    headers:
-      Host: cdn.dash.gearmonster.org
-- name: 🇷🇺 俄罗斯 (Russia) 15 - djkyc
-  server: 72.56.38.83
-  port: 443
-  udp: true
-  type: vless
-  uuid: Fluffy_VPN-zKZUa4Ie
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
-  servername: absolute-disaster.org
-  client-fingerprint: firefox
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
 proxy-groups:
 - name: PROXIES
   type: select
@@ -208,10 +144,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 09 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 10 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 11 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 12 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 13 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 14 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 15 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -228,9 +160,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 09 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 10 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 11 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 12 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 13 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 14 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 15 - djkyc
 rules:
 - MATCH,PROXIES

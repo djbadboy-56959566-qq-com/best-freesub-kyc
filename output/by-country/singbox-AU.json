@@ -4,20 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇦🇺 澳大利亚 (Australia) 01 - djkyc",
-      "server": "45.63.30.142",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - djkyc",
+      "tag": "🇦🇺 澳大利亚 (Australia) 01 - djkyc",
       "server": "195.114.14.91",
       "server_port": 443,
       "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
@@ -37,28 +25,21 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - djkyc",
-      "server": "159.13.55.48",
-      "password": "b42d90fa667942aebc734d60",
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - djkyc",
+      "server": "45.63.30.142",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "hy2-au2.whuiy.xyz",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "b42d90fa667942aebc734d60"
-      },
-      "server_ports": [
-        "20000:30000",
-        "20000:20000"
-      ]
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": false
+      }
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - djkyc",
-      "server": "v1au.mateflora.com",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - djkyc",
+      "server": "176.97.68.100",
       "server_port": 443,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
@@ -78,28 +59,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - djkyc",
-      "server": "zfapi.zalolink.com",
-      "server_port": 54528,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
-          "short_id": "54cca3c1c1c7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 06 - djkyc",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - djkyc",
       "server": "43.255.157.53",
       "server_port": 48158,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -119,6 +79,25 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - djkyc",
+      "server": "ujp.xn--ghqu5fm27b67w.com",
+      "server_port": 443,
+      "uuid": "debafe5b-6760-4b00-b0b2-ee30cbf769f0",
+      "tls": {
+        "enabled": true,
+        "server_name": "portland-wins-robbie-skirt.trycloudflare.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/e0843c8ad581",
+        "headers": {
+          "Host": "portland-wins-robbie-skirt.trycloudflare.com"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -127,8 +106,7 @@
         "🇦🇺 澳大利亚 (Australia) 02 - djkyc",
         "🇦🇺 澳大利亚 (Australia) 03 - djkyc",
         "🇦🇺 澳大利亚 (Australia) 04 - djkyc",
-        "🇦🇺 澳大利亚 (Australia) 05 - djkyc",
-        "🇦🇺 澳大利亚 (Australia) 06 - djkyc"
+        "🇦🇺 澳大利亚 (Australia) 05 - djkyc"
       ]
     },
     {
@@ -139,8 +117,7 @@
         "🇦🇺 澳大利亚 (Australia) 02 - djkyc",
         "🇦🇺 澳大利亚 (Australia) 03 - djkyc",
         "🇦🇺 澳大利亚 (Australia) 04 - djkyc",
-        "🇦🇺 澳大利亚 (Australia) 05 - djkyc",
-        "🇦🇺 澳大利亚 (Australia) 06 - djkyc"
+        "🇦🇺 澳大利亚 (Australia) 05 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
