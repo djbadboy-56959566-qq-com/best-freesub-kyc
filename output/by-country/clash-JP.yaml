@@ -5,14 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - djkyc
-  server: 149.22.87.204
-  port: 443
+  server: 129.153.71.28
+  port: 28863
   udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: vless
+  uuid: b3a15df4-c8ad-4e98-b427-7a679aee2b18
+  tls: true
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
 - name: 🇯🇵 日本 (Japan) 02 - djkyc
-  server: 149.22.87.240
+  server: 149.22.87.204
   port: 443
   udp: true
   type: ss
@@ -26,41 +34,173 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 04 - djkyc
-  server: jpa.123069.xyz
-  port: 53758
+  server: 149.22.87.240
+  port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
-  password: Bwlqh7GcFB
+  password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 05 - djkyc
+  server: 57.129.130.200
+  port: 52014
+  udp: true
+  type: vless
+  uuid: c8b0617e-010f-43a8-b3d0-d5358febf0c9
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 06 - djkyc
+  server: 57.129.130.10
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 395bab7e-302a-42b4-bac7-8acb7d36fdf3
+  tls: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇯🇵 日本 (Japan) 07 - djkyc
+  server: 129.153.71.28
+  port: 28863
+  udp: true
+  type: vless
+  uuid: 4f1f5604-a256-4432-a477-52c3dce7dded
+  tls: true
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+- name: 🇯🇵 日本 (Japan) 08 - djkyc
+  server: 64.176.57.251
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: YKwDz3mFpT9vGcL8nBs5dHrA2sxM
+- name: 🇯🇵 日本 (Japan) 09 - djkyc
   server: 84.247.155.196
   port: 443
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 06 - djkyc
-  server: 103.75.118.228
-  port: 11452
+- name: 🇯🇵 日本 (Japan) 10 - djkyc
+  server: 80.240.18.227
+  port: 10051
   udp: true
   type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
+  uuid: 73996ef7-544c-45e7-abc0-973218c727e2
   tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 07 - djkyc
-  server: 8.211.175.236
-  port: 8443
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 11 - djkyc
+  server: 80.240.18.227
+  port: 10051
   udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 08 - djkyc
+  type: vless
+  uuid: 711b6476-63fc-4f01-b4e0-d44e17d79383
+  tls: true
+  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+- name: 🇯🇵 日本 (Japan) 12 - djkyc
+  server: 185.125.103.62
+  port: 8082
+  udp: true
+  type: vless
+  uuid: 3dbf58d7-53fc-4fad-8779-1c867e024fd0
+  tls: true
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+- name: 🇯🇵 日本 (Japan) 13 - djkyc
+  server: 37.120.222.70
+  port: 8082
+  udp: true
+  type: vless
+  uuid: f3481e31-2fe2-4545-89b6-e7b566699ba4
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 14 - djkyc
+  server: 147.45.42.73
+  port: 20443
+  udp: true
+  type: vless
+  uuid: f293db4d-7ab1-4faf-bb15-89540d8709cb
+  tls: true
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+- name: 🇯🇵 日本 (Japan) 15 - djkyc
+  server: 5.75.195.83
+  port: 56879
+  udp: true
+  type: vless
+  uuid: 1520f8db-26d7-4fa0-b800-0db473e78f71
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 16 - djkyc
+  server: 45.76.100.238
+  port: 10086
+  udp: true
+  type: vmess
+  uuid: ee2927f6-b76a-4011-957c-fe7c4865b36c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /ws
+- name: 🇯🇵 日本 (Japan) 17 - djkyc
   server: 158.101.151.157
   port: 443
   udp: true
@@ -73,7 +213,7 @@ proxies:
     short-id: 684c7531e599dec0
   servername: www.microsoft.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 09 - djkyc
+- name: 🇯🇵 日本 (Japan) 18 - djkyc
   server: 168.110.63.247
   port: 8081
   udp: true
@@ -84,7 +224,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇯🇵 日本 (Japan) 10 - djkyc
+- name: 🇯🇵 日本 (Japan) 19 - djkyc
   server: 168.138.43.75
   port: 80
   udp: true
@@ -96,176 +236,25 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: None
-- name: 🇯🇵 日本 (Japan) 11 - djkyc
+      Host: none
+- name: 🇯🇵 日本 (Japan) 20 - djkyc
   server: 138.3.208.26
   port: 50160
   udp: true
   type: hysteria2
   password: 184cdec28da5a09450803c8debcd2cc9
-  sni: '1'
+  sni: 138.3.208.26
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 12 - djkyc
-  server: 139.162.101.74
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1e709d98-d4c3-45c1-bdcc-4268cf83eff8
-  tls: true
-  reality-opts:
-    public-key: jd8UNLpim43LVV-iEzIXlUgTVuvi9Pf7E0kgQb3o0CI
-    short-id: 7e1e09f4
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 13 - djkyc
-  server: 172.104.86.181
-  port: 443
-  udp: true
-  type: vless
-  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
-  tls: true
-  reality-opts:
-    public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
-    short-id: c8559ca1
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 14 - djkyc
-  server: 172.105.216.21
-  port: 443
-  udp: true
-  type: vless
-  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
-  tls: true
-  reality-opts:
-    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-    short-id: c29f9af4
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-- name: 🇯🇵 日本 (Japan) 15 - djkyc
-  server: 139.162.91.224
-  port: 443
-  udp: true
-  type: vless
-  uuid: ff3038b1-a2f5-428f-89cd-5d5e4efba8e7
-  tls: true
-  reality-opts:
-    public-key: wmbc3kcjbG9-A9Fi7zaHuRVPH7A7UQkKNNvqyqJtMEk
-    short-id: e5b03494
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 16 - djkyc
-  server: 45.76.106.69
-  port: 443
-  udp: true
-  type: vless
-  uuid: db102c51-5f7f-4283-b9c1-942c5c6e2616
-  tls: true
-  reality-opts:
-    public-key: nZzY--8K_-mm8x4JDzkUFt1be1SQzriGIOmYkbpq1C8
-    short-id: 034f5d5a
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 17 - djkyc
-  server: 139.162.89.151
-  port: 443
-  udp: true
-  type: vless
-  uuid: dbca719d-2cfb-48a2-8bc6-8c658a24b142
-  tls: true
-  reality-opts:
-    public-key: Q_HUTa9IpIBeTmm71KVwJrzdgBag_PpMtTKoH2fY3Qo
-    short-id: 07febec7
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 18 - djkyc
-  server: 172.105.212.91
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1f08d52f-126e-46e3-929a-4b6a58e21168
-  tls: true
-  reality-opts:
-    public-key: jb8kqeM_3z0NW3huxWLD0ma2eUCFRsiwapF9I_O3Ei8
-    short-id: '17676229'
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 19 - djkyc
-  server: 172.105.203.15
-  port: 443
-  udp: true
-  type: vless
-  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
-  tls: true
-  reality-opts:
-    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
-    short-id: 0784b134
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 20 - djkyc
-  server: 45.76.222.108
-  port: 443
-  udp: true
-  type: vless
-  uuid: bd95a04e-e3e1-460e-b89d-e9a693d393e0
-  tls: true
-  reality-opts:
-    public-key: -_YzpVlKrn08il_kQdHxHTvJyWYAdetWN_IFRtvPgmE
-    short-id: b5c85d2d
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 🇯🇵 日本 (Japan) 21 - djkyc
-  server: 172.105.197.24
+  server: 139.162.125.126
   port: 443
   udp: true
   type: vless
-  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
+  uuid: eb6cf336-03bd-4dac-9f2a-3e456389279e
   tls: true
   reality-opts:
-    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
-    short-id: 772bef67
+    public-key: mMLchVbQzhQ2bGV6wkg1LP5Q7eqL2hCVHHMT0B03dwg
+    short-id: bd6e3e70
   servername: itunes.apple.com
   client-fingerprint: chrome
   network: ws
@@ -274,40 +263,6 @@ proxies:
     headers:
       Host: itunes.apple.com
 - name: 🇯🇵 日本 (Japan) 22 - djkyc
-  server: 139.162.91.200
-  port: 443
-  udp: true
-  type: vless
-  uuid: 847bdd83-9e2f-4708-81ed-729a2ca6eeec
-  tls: true
-  reality-opts:
-    public-key: -g20lzrrmgQb5wbq0vJ2OkZo_-j4KcFq_JDGVp5n_TQ
-    short-id: 7bae4b22
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 23 - djkyc
-  server: 45.77.8.233
-  port: 443
-  udp: true
-  type: vless
-  uuid: 242212a6-200b-4c09-b2e5-86a8dd490331
-  tls: true
-  reality-opts:
-    public-key: JSC_NT5_PEEbNCQIJjSSlpwkWWF94o0XAP3iboF6nlY
-    short-id: de193635
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 24 - djkyc
   server: 172.237.14.205
   port: 443
   udp: true
@@ -324,7 +279,58 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 23 - djkyc
+  server: 139.162.91.200
+  port: 443
+  udp: true
+  type: vless
+  uuid: 847bdd83-9e2f-4708-81ed-729a2ca6eeec
+  tls: true
+  reality-opts:
+    public-key: -g20lzrrmgQb5wbq0vJ2OkZo_-j4KcFq_JDGVp5n_TQ
+    short-id: 7bae4b22
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 24 - djkyc
+  server: 172.104.86.181
+  port: 443
+  udp: true
+  type: vless
+  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
+  tls: true
+  reality-opts:
+    public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
+    short-id: c8559ca1
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 - name: 🇯🇵 日本 (Japan) 25 - djkyc
+  server: 139.162.91.224
+  port: 443
+  udp: true
+  type: vless
+  uuid: ff3038b1-a2f5-428f-89cd-5d5e4efba8e7
+  tls: true
+  reality-opts:
+    public-key: wmbc3kcjbG9-A9Fi7zaHuRVPH7A7UQkKNNvqyqJtMEk
+    short-id: e5b03494
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 26 - djkyc
   server: 139.162.91.137
   port: 443
   udp: true
@@ -341,34 +347,429 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 26 - djkyc
+- name: 🇯🇵 日本 (Japan) 27 - djkyc
+  server: 45.76.222.108
+  port: 443
+  udp: true
+  type: vless
+  uuid: bd95a04e-e3e1-460e-b89d-e9a693d393e0
+  tls: true
+  reality-opts:
+    public-key: -_YzpVlKrn08il_kQdHxHTvJyWYAdetWN_IFRtvPgmE
+    short-id: b5c85d2d
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 28 - djkyc
+  server: 172.105.203.15
+  port: 443
+  udp: true
+  type: vless
+  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
+  tls: true
+  reality-opts:
+    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
+    short-id: 0784b134
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 29 - djkyc
+  server: 172.105.212.91
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1f08d52f-126e-46e3-929a-4b6a58e21168
+  tls: true
+  reality-opts:
+    public-key: jb8kqeM_3z0NW3huxWLD0ma2eUCFRsiwapF9I_O3Ei8
+    short-id: '17676229'
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 30 - djkyc
+  server: 139.162.89.151
+  port: 443
+  udp: true
+  type: vless
+  uuid: dbca719d-2cfb-48a2-8bc6-8c658a24b142
+  tls: true
+  reality-opts:
+    public-key: Q_HUTa9IpIBeTmm71KVwJrzdgBag_PpMtTKoH2fY3Qo
+    short-id: 07febec7
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 31 - djkyc
+  server: 172.105.197.24
+  port: 443
+  udp: true
+  type: vless
+  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
+  tls: true
+  reality-opts:
+    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+    short-id: 772bef67
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 32 - djkyc
+  server: 45.77.8.233
+  port: 443
+  udp: true
+  type: vless
+  uuid: 242212a6-200b-4c09-b2e5-86a8dd490331
+  tls: true
+  reality-opts:
+    public-key: JSC_NT5_PEEbNCQIJjSSlpwkWWF94o0XAP3iboF6nlY
+    short-id: de193635
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 33 - djkyc
+  server: 45.76.106.69
+  port: 443
+  udp: true
+  type: vless
+  uuid: db102c51-5f7f-4283-b9c1-942c5c6e2616
+  tls: true
+  reality-opts:
+    public-key: nZzY--8K_-mm8x4JDzkUFt1be1SQzriGIOmYkbpq1C8
+    short-id: 034f5d5a
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 34 - djkyc
+  server: 139.162.101.74
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1e709d98-d4c3-45c1-bdcc-4268cf83eff8
+  tls: true
+  reality-opts:
+    public-key: jd8UNLpim43LVV-iEzIXlUgTVuvi9Pf7E0kgQb3o0CI
+    short-id: 7e1e09f4
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 35 - djkyc
+  server: 84.22.150.39
+  port: 7443
+  udp: true
+  type: vless
+  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
+  tls: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇯🇵 日本 (Japan) 36 - djkyc
+  server: 154.31.112.237
+  port: 26418
+  udp: true
+  type: vless
+  uuid: 4a98013d-7ccb-477b-b613-39a3cff12144
+  tls: true
+  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+- name: 🇯🇵 日本 (Japan) 37 - djkyc
+  server: 203.137.165.164
+  port: 57554
+  udp: true
+  type: vless
+  uuid: 9c7501fb-4e23-44d8-9a9e-973807ae4f35
+  tls: true
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+- name: 🇯🇵 日本 (Japan) 38 - djkyc
+  server: 154.31.112.237
+  port: 26418
+  udp: true
+  type: vless
+  uuid: c6132790-8a67-42e7-94fc-7a3fe651bb04
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 39 - djkyc
+  server: 203.137.165.164
+  port: 57554
+  udp: true
+  type: vless
+  uuid: a2336cca-3fd0-45cb-8ac5-1de6d17692b2
+  tls: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇯🇵 日本 (Japan) 40 - djkyc
+  server: 45.77.241.190
+  port: 8441
+  udp: true
+  type: vless
+  uuid: a98b19c3-8b40-4326-a174-60f6c71c59d8
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 41 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 50f7f0fe-32be-4d5a-9432-095160ff7775
+  tls: true
+  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
+- name: 🇯🇵 日本 (Japan) 42 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 17701bb3-3edc-4087-8b2f-c7b2066a4318
+  tls: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇯🇵 日本 (Japan) 43 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 2949e720-4588-4edc-8642-ff2b7b368c78
+  tls: true
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 44 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 8199228b-e84b-42a2-9268-e400391e483a
+  tls: true
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+- name: 🇯🇵 日本 (Japan) 45 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: a32f3ec6-d776-450e-9d97-9e2deb6c8421
+  tls: true
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 46 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 30b40928-f431-4c83-bfed-44f1243d16ff
+  tls: true
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 47 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: e27ffb19-314e-449b-ac9b-44b28cf50ef5
+  tls: true
+  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
+- name: 🇯🇵 日本 (Japan) 48 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 3f87daa8-3af8-40a0-b655-127911e008dc
+  tls: true
+  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
+- name: 🇯🇵 日本 (Japan) 49 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 23b385cf-02c3-4df8-8402-11f1916418cd
+  tls: true
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 50 - djkyc
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 569b5df8-ffab-4e9f-b999-21479d7a62a6
+  tls: true
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+- name: 🇯🇵 日本 (Japan) 51 - djkyc
   server: 84.247.155.196
   port: 80
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 27 - djkyc
-  server: 8.209.247.109
-  port: 443
-  udp: true
-  type: hysteria2
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 28 - djkyc
-  server: djj.zjlo.top
-  port: 23169
+- name: 🇯🇵 日本 (Japan) 52 - djkyc
+  server: 172.105.241.119
+  port: 1916
   udp: true
   type: vless
-  uuid: 7318caa1-93d1-4a9d-c481-504599902700
-  flow: xtls-rprx-vision
+  uuid: a245b092-9209-4aa5-800b-42030cee376d
   tls: true
-  servername: djj.zjlo.top
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 29 - djkyc
-  server: 104.19.12.94
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 53 - djkyc
+  server: 8.211.175.236
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: 8.211.175.236
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 54 - djkyc
+  server: 57.129.130.57
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 201e0019-2e79-4147-8a09-e510d630abeb
+  tls: true
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+- name: 🇯🇵 日本 (Japan) 55 - djkyc
+  server: 104.24.31.89
   port: 443
   udp: true
   type: vless
@@ -382,31 +783,42 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 30 - djkyc
-  server: 168.110.21.56
-  port: 18453
+- name: 🇯🇵 日本 (Japan) 56 - djkyc
+  server: 79.137.199.52
+  port: 21
   udp: true
   type: vless
-  uuid: 1751bebc-1bf1-420c-8b9d-97157aad179b
-- name: 🇯🇵 日本 (Japan) 31 - djkyc
-  server: 155.248.175.201
-  port: 23169
-  udp: true
-  type: vless
-  uuid: 7318caa1-93d1-4a9d-c481-504599902700
-  flow: xtls-rprx-vision
+  uuid: f346f223-ebf6-4da3-955e-425de7e9c372
   tls: true
-  servername: djj.zjlo.top
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
   skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 32 - djkyc
-  server: 141.11.139.102
-  port: 32515
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+- name: 🇯🇵 日本 (Japan) 57 - djkyc
+  server: 43.129.80.179
+  port: 8443
   udp: true
-  type: vmess
-  uuid: 081dbf5a-d8b6-40c8-96f8-3c4ca9f50442
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 58 - djkyc
+  server: jpa.123069.xyz
+  port: 53758
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
 proxy-groups:
 - name: PROXIES
   type: select
@@ -444,6 +856,32 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 30 - djkyc
   - 🇯🇵 日本 (Japan) 31 - djkyc
   - 🇯🇵 日本 (Japan) 32 - djkyc
+  - 🇯🇵 日本 (Japan) 33 - djkyc
+  - 🇯🇵 日本 (Japan) 34 - djkyc
+  - 🇯🇵 日本 (Japan) 35 - djkyc
+  - 🇯🇵 日本 (Japan) 36 - djkyc
+  - 🇯🇵 日本 (Japan) 37 - djkyc
+  - 🇯🇵 日本 (Japan) 38 - djkyc
+  - 🇯🇵 日本 (Japan) 39 - djkyc
+  - 🇯🇵 日本 (Japan) 40 - djkyc
+  - 🇯🇵 日本 (Japan) 41 - djkyc
+  - 🇯🇵 日本 (Japan) 42 - djkyc
+  - 🇯🇵 日本 (Japan) 43 - djkyc
+  - 🇯🇵 日本 (Japan) 44 - djkyc
+  - 🇯🇵 日本 (Japan) 45 - djkyc
+  - 🇯🇵 日本 (Japan) 46 - djkyc
+  - 🇯🇵 日本 (Japan) 47 - djkyc
+  - 🇯🇵 日本 (Japan) 48 - djkyc
+  - 🇯🇵 日本 (Japan) 49 - djkyc
+  - 🇯🇵 日本 (Japan) 50 - djkyc
+  - 🇯🇵 日本 (Japan) 51 - djkyc
+  - 🇯🇵 日本 (Japan) 52 - djkyc
+  - 🇯🇵 日本 (Japan) 53 - djkyc
+  - 🇯🇵 日本 (Japan) 54 - djkyc
+  - 🇯🇵 日本 (Japan) 55 - djkyc
+  - 🇯🇵 日本 (Japan) 56 - djkyc
+  - 🇯🇵 日本 (Japan) 57 - djkyc
+  - 🇯🇵 日本 (Japan) 58 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -481,5 +919,31 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 30 - djkyc
   - 🇯🇵 日本 (Japan) 31 - djkyc
   - 🇯🇵 日本 (Japan) 32 - djkyc
+  - 🇯🇵 日本 (Japan) 33 - djkyc
+  - 🇯🇵 日本 (Japan) 34 - djkyc
+  - 🇯🇵 日本 (Japan) 35 - djkyc
+  - 🇯🇵 日本 (Japan) 36 - djkyc
+  - 🇯🇵 日本 (Japan) 37 - djkyc
+  - 🇯🇵 日本 (Japan) 38 - djkyc
+  - 🇯🇵 日本 (Japan) 39 - djkyc
+  - 🇯🇵 日本 (Japan) 40 - djkyc
+  - 🇯🇵 日本 (Japan) 41 - djkyc
+  - 🇯🇵 日本 (Japan) 42 - djkyc
+  - 🇯🇵 日本 (Japan) 43 - djkyc
+  - 🇯🇵 日本 (Japan) 44 - djkyc
+  - 🇯🇵 日本 (Japan) 45 - djkyc
+  - 🇯🇵 日本 (Japan) 46 - djkyc
+  - 🇯🇵 日本 (Japan) 47 - djkyc
+  - 🇯🇵 日本 (Japan) 48 - djkyc
+  - 🇯🇵 日本 (Japan) 49 - djkyc
+  - 🇯🇵 日本 (Japan) 50 - djkyc
+  - 🇯🇵 日本 (Japan) 51 - djkyc
+  - 🇯🇵 日本 (Japan) 52 - djkyc
+  - 🇯🇵 日本 (Japan) 53 - djkyc
+  - 🇯🇵 日本 (Japan) 54 - djkyc
+  - 🇯🇵 日本 (Japan) 55 - djkyc
+  - 🇯🇵 日本 (Japan) 56 - djkyc
+  - 🇯🇵 日本 (Japan) 57 - djkyc
+  - 🇯🇵 日本 (Japan) 58 - djkyc
 rules:
 - MATCH,PROXIES

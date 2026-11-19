@@ -1,0 +1,70 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🌐 其他地区 (Other) 01 - djkyc
+  server: 104.21.23.29
+  port: 443
+  udp: true
+  type: vless
+  uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
+  tls: true
+  servername: ws137.mydosss.ccwu.cc
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /3b575ddc8596
+    headers:
+      Host: ws137.mydosss.ccwu.cc
+- name: 🌐 其他地区 (Other) 02 - djkyc
+  server: 104.27.0.1
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 03 - djkyc
+  server: 172.67.199.126
+  port: 2053
+  udp: true
+  type: vless
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  tls: true
+  servername: fast.145779.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-tesla
+    headers:
+      Host: fast.145779.xyz
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🌐 其他地区 (Other) 01 - djkyc
+  - 🌐 其他地区 (Other) 02 - djkyc
+  - 🌐 其他地区 (Other) 03 - djkyc
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🌐 其他地区 (Other) 01 - djkyc
+  - 🌐 其他地区 (Other) 02 - djkyc
+  - 🌐 其他地区 (Other) 03 - djkyc
+rules:
+- MATCH,PROXIES
