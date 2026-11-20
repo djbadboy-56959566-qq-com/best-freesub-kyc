@@ -5,11 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇦 乌克兰 (Ukraine) 01 - djkyc
-  server: 87.76.154.28
-  port: 57231
+  server: netx.smrtai.top
+  port: 443
   udp: true
   type: vless
-  uuid: c34a41b6-598f-46ac-bea3-8b39a906f922
+  uuid: d8b58872-cc25-4bb2-badb-b86399c075fa
+  tls: true
+  reality-opts:
+    public-key: L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk
+    short-id: d8b58872
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

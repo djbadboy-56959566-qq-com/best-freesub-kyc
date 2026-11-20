@@ -30,6 +30,12 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - djkyc
+  server: leviko-tr8060.shopingggg.ir
+  port: 57231
+  udp: true
+  type: vless
+  uuid: c34a41b6-598f-46ac-bea3-8b39a906f922
+- name: 🇹🇷 土耳其 (Turkey) 04 - djkyc
   server: tr.subscriptionservice.ir
   port: 2089
   udp: true
@@ -44,6 +50,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - djkyc
   - 🇹🇷 土耳其 (Turkey) 02 - djkyc
   - 🇹🇷 土耳其 (Turkey) 03 - djkyc
+  - 🇹🇷 土耳其 (Turkey) 04 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -52,5 +59,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - djkyc
   - 🇹🇷 土耳其 (Turkey) 02 - djkyc
   - 🇹🇷 土耳其 (Turkey) 03 - djkyc
+  - 🇹🇷 土耳其 (Turkey) 04 - djkyc
 rules:
 - MATCH,PROXIES
