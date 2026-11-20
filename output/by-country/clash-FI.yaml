@@ -5,6 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - djkyc
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 02 - djkyc
   server: 157.180.98.124
   port: 49659
   udp: true
@@ -17,35 +28,12 @@ proxies:
     short-id: 81959fce
   servername: apple.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 02 - djkyc
-  server: 94.183.164.119
-  port: 24433
-  udp: true
-  type: hysteria2
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: lakes.blog-forme.ru
-  skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 03 - djkyc
-  server: 162.159.160.117
-  port: 2083
-  udp: true
-  type: vless
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  tls: true
-  servername: vipfree.dr-ping.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 🇫🇮 芬兰 (Finland) 04 - djkyc
-  server: 196.196.204.148
+  server: 179.254.126.220
   port: 443
   udp: true
   type: vless
-  uuid: 63aa95e5-3b36-4e53-a86f-7df59652e994
+  uuid: d3863595-3afe-4a74-8305-612ab69cd21c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -53,36 +41,29 @@ proxies:
     short-id: 597e1c279d224774
   servername: 4c980ft.fi15.h1clayd.click
   client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 04 - djkyc
+  server: 94.183.164.119
+  port: 24433
+  udp: true
+  type: hysteria2
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: lakes.blog-forme.ru
+  skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 05 - djkyc
-  server: 193.233.199.30
-  port: 443
+  server: 144.31.28.228
+  port: 2096
   udp: true
   type: vless
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
-  flow: xtls-rprx-vision
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
   tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  servername: fin3-r.bankai.party
-  client-fingerprint: qq
-- name: 🇫🇮 芬兰 (Finland) 06 - djkyc
-  server: fn1s.sublinkplas.ir
-  port: 53731
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6VxfNRMfOHIXLlOz_l46Efr0zIZoH2-K
-- name: 🇫🇮 芬兰 (Finland) 07 - djkyc
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  servername: ste87ea.rumedia-cdn.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vless
+    path: /cdn/v3/live
     headers:
-      Host: 45.144.234.157
+      Host: ste87ea.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -93,8 +74,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - djkyc
   - 🇫🇮 芬兰 (Finland) 04 - djkyc
   - 🇫🇮 芬兰 (Finland) 05 - djkyc
-  - 🇫🇮 芬兰 (Finland) 06 - djkyc
-  - 🇫🇮 芬兰 (Finland) 07 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -105,7 +84,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - djkyc
   - 🇫🇮 芬兰 (Finland) 04 - djkyc
   - 🇫🇮 芬兰 (Finland) 05 - djkyc
-  - 🇫🇮 芬兰 (Finland) 06 - djkyc
-  - 🇫🇮 芬兰 (Finland) 07 - djkyc
 rules:
 - MATCH,PROXIES

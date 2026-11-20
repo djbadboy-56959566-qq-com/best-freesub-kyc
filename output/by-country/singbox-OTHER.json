@@ -4,16 +4,42 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - djkyc",
-      "server": "104.16.0.1",
-      "server_port": 2052,
-      "uuid": "5744e593-1cc8-48fa-b8ca-57cd494fe35b",
+      "server": "cf.090227.xyz",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/rain1226",
+        "path": "/ws",
         "headers": {
-          "Host": "eu02.123450908.xyz"
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 02 - djkyc",
+      "server": "cf.090227.xyz",
+      "server_port": 443,
+      "uuid": "290cc691-3ac6-4387-98a1-25c8eb8ca2ea",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "sgal.dagrate.eu.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sgal.dagrate.eu.org"
         }
       }
     },
@@ -22,14 +48,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - djkyc"
+        "🌐 其他地区 (Other) 01 - djkyc",
+        "🌐 其他地区 (Other) 02 - djkyc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - djkyc"
+        "🌐 其他地区 (Other) 01 - djkyc",
+        "🌐 其他地区 (Other) 02 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
