@@ -14,7 +14,7 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - djkyc",
-      "server": "88.216.214.159",
+      "server": "leviko-se5734.shopingggg.ir",
       "server_port": 443,
       "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
       "tls": {
@@ -22,7 +22,7 @@
         "server_name": "api-svc-mgr.galioncc.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -92,39 +92,38 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 07 - djkyc",
       "server": "95.143.196.97",
       "server_port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "password": "769f34f0-1500-488f-b414-03bc90666502",
       "tls": {
         "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "se.mimowhat.online",
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 08 - djkyc",
-      "server": "subgift.gcorecdn.com",
-      "server_port": 443,
-      "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
+      "server": "2.27.14.247",
+      "server_port": 2096,
+      "uuid": "fbe22815-0718-4eae-816f-e91c67d15b54",
       "tls": {
         "enabled": true,
-        "server_name": "subgift.gcorecdn.com",
-        "insecure": false
+        "server_name": "st2a695.rumedia-cdn.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/t.me-SubGift"
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "st2a695.rumedia-cdn.com"
+        }
       }
     },
     {
@@ -145,6 +144,22 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 10 - djkyc",
+      "server": "subgift.gcorecdn.com",
+      "server_port": 443,
+      "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "subgift.gcorecdn.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/t.me-SubGift"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -157,7 +172,8 @@
         "🇸🇪 瑞典 (Sweden) 06 - djkyc",
         "🇸🇪 瑞典 (Sweden) 07 - djkyc",
         "🇸🇪 瑞典 (Sweden) 08 - djkyc",
-        "🇸🇪 瑞典 (Sweden) 09 - djkyc"
+        "🇸🇪 瑞典 (Sweden) 09 - djkyc",
+        "🇸🇪 瑞典 (Sweden) 10 - djkyc"
       ]
     },
     {
@@ -172,7 +188,8 @@
         "🇸🇪 瑞典 (Sweden) 06 - djkyc",
         "🇸🇪 瑞典 (Sweden) 07 - djkyc",
         "🇸🇪 瑞典 (Sweden) 08 - djkyc",
-        "🇸🇪 瑞典 (Sweden) 09 - djkyc"
+        "🇸🇪 瑞典 (Sweden) 09 - djkyc",
+        "🇸🇪 瑞典 (Sweden) 10 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

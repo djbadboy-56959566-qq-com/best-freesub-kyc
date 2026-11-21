@@ -13,18 +13,18 @@ proxies:
   password: qYEN5HX4JKeVCdEC
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - djkyc
   server: 195.238.126.20
-  port: 9078
+  port: 9001
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: JCJpbRbQZNw9XFZG
+  password: UkXRsXvR6buDMG2Y
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - djkyc
   server: 195.238.126.20
-  port: 9011
+  port: 9068
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
+  password: mwgRg9hRq3b4Qnwb
 - name: 🇱🇹 立陶宛 (Lithuania) 04 - djkyc
   server: 195.238.126.20
   port: 9045
@@ -32,6 +32,43 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: Lp27rqyJq72bZsqX
+- name: 🇱🇹 立陶宛 (Lithuania) 05 - djkyc
+  server: 195.238.126.20
+  port: 9012
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: xaupMUvhptwxdDUg
+- name: 🇱🇹 立陶宛 (Lithuania) 06 - djkyc
+  server: 195.238.126.20
+  port: 9078
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: JCJpbRbQZNw9XFZG
+- name: 🇱🇹 立陶宛 (Lithuania) 07 - djkyc
+  server: 94.183.234.245
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
+    short-id: 7f1e29593aa94ad1
+  servername: www.bing.com
+  client-fingerprint: qq
+- name: 🇱🇹 立陶宛 (Lithuania) 08 - djkyc
+  server: 46.8.210.33
+  port: 8446
+  udp: true
+  type: hysteria2
+  password: b7941807-1f4d-4bda-a878-92d708b84494
+  sni: litelitvalitter.rooferz.surf
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: nTm4oBa6QCpWoAFDVtF6mpMpfMfN8CM6
 proxy-groups:
 - name: PROXIES
   type: select
@@ -41,6 +78,10 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - djkyc
   - 🇱🇹 立陶宛 (Lithuania) 03 - djkyc
   - 🇱🇹 立陶宛 (Lithuania) 04 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 05 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 06 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 07 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 08 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -50,5 +91,9 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - djkyc
   - 🇱🇹 立陶宛 (Lithuania) 03 - djkyc
   - 🇱🇹 立陶宛 (Lithuania) 04 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 05 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 06 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 07 - djkyc
+  - 🇱🇹 立陶宛 (Lithuania) 08 - djkyc
 rules:
 - MATCH,PROXIES
