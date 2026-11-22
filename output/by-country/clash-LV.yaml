@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇻 拉脱维亚 (Latvia) 01 - djkyc
-  server: 185.135.86.175
-  port: 9034
+  server: 31.56.179.162
+  port: 40369
   udp: true
   type: ss
-  cipher: aes-256-cfb
-  password: Yg4MbdXFQ9HFFVY6
+  cipher: 2022-blake3-aes-256-gcm
+  password: lWi2Ck/hdsr2YRMTz95ZskWbGqJMM4a059omw26B1P8=:0EEYe0cqOpomvxdV1214tHallVSWctEACDmE6yRWM0g=
 - name: 🇱🇻 拉脱维亚 (Latvia) 02 - djkyc
   server: 185.135.86.175
   port: 9082
@@ -20,11 +20,11 @@ proxies:
   password: 45xgMgm386pjWjTx
 - name: 🇱🇻 拉脱维亚 (Latvia) 03 - djkyc
   server: 185.135.86.175
-  port: 9017
+  port: 9068
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: HAVAdE3nXhqA5nHp
+  password: mwgRg9hRq3b4Qnwb
 - name: 🇱🇻 拉脱维亚 (Latvia) 04 - djkyc
   server: 185.135.86.175
   port: 9007
@@ -41,33 +41,26 @@ proxies:
   password: 37Z4TFCYhfxcpc9Q
 - name: 🇱🇻 拉脱维亚 (Latvia) 06 - djkyc
   server: 185.135.86.175
-  port: 9033
+  port: 9034
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: UTJA57ypk2XKQpnm
+  password: Yg4MbdXFQ9HFFVY6
 - name: 🇱🇻 拉脱维亚 (Latvia) 07 - djkyc
+  server: 185.135.86.175
+  port: 9017
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: HAVAdE3nXhqA5nHp
+- name: 🇱🇻 拉脱维亚 (Latvia) 08 - djkyc
   server: 185.135.86.175
   port: 9094
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: rpgbNnU9rDDU4aWZ
-- name: 🇱🇻 拉脱维亚 (Latvia) 08 - djkyc
-  server: 185.135.86.175
-  port: 9068
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: mwgRg9hRq3b4Qnwb
 - name: 🇱🇻 拉脱维亚 (Latvia) 09 - djkyc
-  server: 185.135.86.175
-  port: 9036
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: hbtvgUz5uNYyB3Rf
-- name: 🇱🇻 拉脱维亚 (Latvia) 10 - djkyc
   server: 195.123.209.159
   port: 8443
   udp: true
@@ -80,7 +73,7 @@ proxies:
     short-id: f8d0271b4b5f9efc
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇱🇻 拉脱维亚 (Latvia) 11 - djkyc
+- name: 🇱🇻 拉脱维亚 (Latvia) 10 - djkyc
   server: 195.123.213.28
   port: 443
   udp: true
@@ -93,6 +86,13 @@ proxies:
     short-id: 5c256336e3b673fa
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇱🇻 拉脱维亚 (Latvia) 11 - djkyc
+  server: 185.135.86.175
+  port: 9033
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: UTJA57ypk2XKQpnm
 proxy-groups:
 - name: PROXIES
   type: select

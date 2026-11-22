@@ -5,36 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - djkyc
-  server: 87.76.154.28
-  port: 57231
-  udp: true
-  type: vless
-  uuid: c34a41b6-598f-46ac-bea3-8b39a906f922
-- name: 🇹🇷 土耳其 (Turkey) 02 - djkyc
-  server: 77.83.245.79
+  server: cadrin.wtf
   port: 443
   udp: true
   type: vless
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
-  flow: xtls-rprx-vision
+  uuid: a4740bee-81ad-4a58-99c9-eca576ecb6e6
   tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  servername: tr1-r.bankai.party
-  client-fingerprint: chrome
+  servername: cadrin.wtf
+  skip-cert-verify: false
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cache.sync.v1
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - djkyc
-  - 🇹🇷 土耳其 (Turkey) 02 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - djkyc
-  - 🇹🇷 土耳其 (Turkey) 02 - djkyc
 rules:
 - MATCH,PROXIES
