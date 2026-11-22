@@ -6,14 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - djkyc",
-      "server": "31.56.179.162",
-      "server_port": 40369,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "lWi2Ck/hdsr2YRMTz95ZskWbGqJMM4a059omw26B1P8=:0EEYe0cqOpomvxdV1214tHallVSWctEACDmE6yRWM0g="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - djkyc",
       "server": "185.135.86.175",
       "server_port": 9082,
       "method": "aes-256-cfb",
@@ -21,7 +13,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - djkyc",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - djkyc",
       "server": "185.135.86.175",
       "server_port": 9068,
       "method": "aes-256-cfb",
@@ -29,23 +21,15 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - djkyc",
+      "server": "185.135.86.175",
+      "server_port": 9036,
+      "method": "aes-256-cfb",
+      "password": "hbtvgUz5uNYyB3Rf"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - djkyc",
-      "server": "185.135.86.175",
-      "server_port": 9007,
-      "method": "aes-256-cfb",
-      "password": "kSPmvwdFzGMMW5pY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - djkyc",
-      "server": "185.135.86.175",
-      "server_port": 9086,
-      "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - djkyc",
       "server": "185.135.86.175",
       "server_port": 9034,
       "method": "aes-256-cfb",
@@ -53,7 +37,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - djkyc",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - djkyc",
+      "server": "185.135.86.175",
+      "server_port": 9007,
+      "method": "aes-256-cfb",
+      "password": "kSPmvwdFzGMMW5pY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - djkyc",
       "server": "185.135.86.175",
       "server_port": 9017,
       "method": "aes-256-cfb",
@@ -61,11 +53,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 08 - djkyc",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - djkyc",
       "server": "185.135.86.175",
       "server_port": 9094,
       "method": "aes-256-cfb",
       "password": "rpgbNnU9rDDU4aWZ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 08 - djkyc",
+      "server": "185.135.86.175",
+      "server_port": 9033,
+      "method": "aes-256-cfb",
+      "password": "UTJA57ypk2XKQpnm"
     },
     {
       "type": "vless",
@@ -110,14 +110,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 11 - djkyc",
-      "server": "185.135.86.175",
-      "server_port": 9033,
-      "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -131,8 +123,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 07 - djkyc",
         "🇱🇻 拉脱维亚 (Latvia) 08 - djkyc",
         "🇱🇻 拉脱维亚 (Latvia) 09 - djkyc",
-        "🇱🇻 拉脱维亚 (Latvia) 10 - djkyc",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - djkyc"
+        "🇱🇻 拉脱维亚 (Latvia) 10 - djkyc"
       ]
     },
     {
@@ -148,8 +139,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 07 - djkyc",
         "🇱🇻 拉脱维亚 (Latvia) 08 - djkyc",
         "🇱🇻 拉脱维亚 (Latvia) 09 - djkyc",
-        "🇱🇻 拉脱维亚 (Latvia) 10 - djkyc",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - djkyc"
+        "🇱🇻 拉脱维亚 (Latvia) 10 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
