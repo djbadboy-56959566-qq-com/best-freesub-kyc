@@ -6,20 +6,21 @@
     {
       "type": "vless",
       "tag": "🇺🇦 乌克兰 (Ukraine) 01 - djkyc",
-      "server": "netx.smrtai.top",
-      "server_port": 443,
-      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
+      "server": "194.54.80.37",
+      "server_port": 8443,
+      "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
-          "short_id": "d8b58872"
+          "public_key": "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU",
+          "short_id": "f8d0271b4b5f9efc"
         }
       }
     },
@@ -44,34 +45,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - djkyc",
-      "server": "194.54.80.37",
-      "server_port": 8443,
-      "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU",
-          "short_id": "f8d0271b4b5f9efc"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇦 乌克兰 (Ukraine) 01 - djkyc",
-        "🇺🇦 乌克兰 (Ukraine) 02 - djkyc",
-        "🇺🇦 乌克兰 (Ukraine) 03 - djkyc"
+        "🇺🇦 乌克兰 (Ukraine) 02 - djkyc"
       ]
     },
     {
@@ -79,8 +58,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇦 乌克兰 (Ukraine) 01 - djkyc",
-        "🇺🇦 乌克兰 (Ukraine) 02 - djkyc",
-        "🇺🇦 乌克兰 (Ukraine) 03 - djkyc"
+        "🇺🇦 乌克兰 (Ukraine) 02 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
