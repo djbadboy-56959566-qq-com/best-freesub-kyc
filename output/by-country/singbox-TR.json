@@ -6,27 +6,21 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - djkyc",
-      "server": "chatgpt.com",
+      "server": "188.225.36.219",
       "server_port": 443,
-      "uuid": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
       "tls": {
         "enabled": true,
-        "server_name": "sinavm3.soft10.ir",
+        "server_name": "olvento.space",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
-        "headers": {
-          "Host": "sinavm3.soft10.ir"
-        }
+        "type": "grpc",
+        "service_name": "olvento.sync.v1"
       }
     },
     {

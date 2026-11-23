@@ -4,37 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
-      "server": "48.103.133.47",
-      "server_port": 8443,
-      "uuid": "2ed34e7c-45c5-4e0e-bcab-42fe99a7bd25",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
       "server": "130.49.189.158",
       "server_port": 43558,
       "method": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+      "password": "JYevOrmujurJsNP1ata0kNfjsxwFLAhgD73mrZPJP1I="
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
       "server": "200.169.179.233",
       "server_port": 443,
       "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
@@ -44,7 +23,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         }
       },
       "transport": {
@@ -53,48 +32,72 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
+      "server": "103.88.243.142",
+      "server_port": 11592,
+      "password": "41edb44c8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv-17e124.21freedom.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
-      "server": "176.32.33.126",
-      "server_port": 18443,
-      "method": "aes-256-gcm",
-      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
+      "server": "136.148.83.70",
+      "server_port": 443,
+      "uuid": "00000000-0000-0001-0000-000000000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "aszbk-ru-78dc.my-fade.cloud",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
-      "server": "188.68.216.33",
+      "server": "212.233.90.78",
       "server_port": 443,
-      "uuid": "8596813c-6a35-0001-819d-2de72201a856",
+      "uuid": "9548ef84-b54d-41dc-b17c-9da21d52ba82",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pmdhivnevikmltdhqp.fcloudservices.site",
-        "insecure": false,
+        "server_name": "birch-ledger.justext.space",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FwPphm8xGAKY6u74WDRVrcVye3A7GdLDfJoNSDWFsFQ",
+          "short_id": "2c6df23e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
-      "server": "109.107.189.69",
-      "server_port": 8443,
-      "uuid": "cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e",
-      "flow": "xtls-rprx-vision",
+      "server": "xssite.webredirect.org",
+      "server_port": 443,
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
       "tls": {
         "enabled": true,
-        "server_name": "gw-721bd5.dobry.monster",
+        "server_name": "xssite.webredirect.org",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE",
-          "short_id": "0912cc7f28aa26ba"
+          "fingerprint": "random"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-ru"
       }
     },
     {
@@ -121,57 +124,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
-      "server": "147.45.175.81",
-      "server_port": 443,
-      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
-      "tls": {
-        "enabled": true,
-        "server_name": "xsru2.freeddns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wsru",
-        "headers": {
-          "Host": "xsru2.freeddns.org"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
-      "server": "90.156.203.62",
-      "server_port": 5112,
-      "method": "chacha20-ietf-poly1305",
-      "password": "VVlAff77CnAU43Aoc5j15Y"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - djkyc",
-      "server": "leviko-al8733.shopingggg.ir",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.lucheeebezlimitnoekino.stream",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -182,10 +134,7 @@
         "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 10 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 07 - djkyc"
       ]
     },
     {
@@ -198,10 +147,7 @@
         "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 10 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 07 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
