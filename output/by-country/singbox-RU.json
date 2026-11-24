@@ -4,54 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "JYevOrmujurJsNP1ata0kNfjsxwFLAhgD73mrZPJP1I="
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
-      "server": "200.169.179.233",
+      "server": "136.148.83.69",
       "server_port": 443,
-      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "uuid": "666821a2-5c3d-0001-a56f-5a3a562d7324",
       "tls": {
         "enabled": true,
-        "server_name": "vps3.nemnogogo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "mobile.api.Event"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
-      "server": "103.88.243.142",
-      "server_port": 11592,
-      "password": "41edb44c8e",
-      "tls": {
-        "enabled": true,
-        "server_name": "srv-17e124.21freedom.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
-      "server": "136.148.83.70",
-      "server_port": 443,
-      "uuid": "00000000-0000-0001-0000-000000000000",
-      "tls": {
-        "enabled": true,
-        "server_name": "aszbk-ru-78dc.my-fade.cloud",
+        "server_name": "szqbx-ru-77dc.my-fade.cloud",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -60,29 +20,40 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
-      "server": "212.233.90.78",
-      "server_port": 443,
-      "uuid": "9548ef84-b54d-41dc-b17c-9da21d52ba82",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
+      "server": "103.88.243.142",
+      "server_port": 11592,
+      "password": "41edb44c8e",
       "tls": {
         "enabled": true,
-        "server_name": "birch-ledger.justext.space",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FwPphm8xGAKY6u74WDRVrcVye3A7GdLDfJoNSDWFsFQ",
-          "short_id": "2c6df23e"
-        }
+        "server_name": "103.88.243.142",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
+      "server": "201.51.12.98",
+      "server_port": 443,
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "tls": {
+        "enabled": true,
+        "server_name": "vps3.nemnogogo.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "mobile.api.Event"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
       "server": "xssite.webredirect.org",
       "server_port": 443,
       "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
@@ -101,29 +72,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
-      "server": "185.178.208.167",
-      "server_port": 443,
-      "uuid": "c2b17066-5386-0001-803b-5e652c0528f9",
-      "tls": {
-        "enabled": true,
-        "server_name": "trx.tools",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/session",
-        "headers": {
-          "Host": "api.14887277.xyz"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -131,10 +79,7 @@
         "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 07 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 04 - djkyc"
       ]
     },
     {
@@ -144,10 +89,7 @@
         "🇷🇺 俄罗斯 (Russia) 01 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 03 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 07 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 04 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

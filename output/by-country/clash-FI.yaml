@@ -9,7 +9,7 @@ proxies:
   port: 39018
   udp: true
   type: vmess
-  uuid: 45dc10c6-04c8-4c70-a06a-d396254a6c0b
+  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
   alterId: 0
   cipher: auto
 - name: 🇫🇮 芬兰 (Finland) 02 - djkyc
@@ -18,29 +18,16 @@ proxies:
   udp: true
   type: hysteria2
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: 94.183.164.119
-  skip-cert-verify: true
+  sni: lakes.blog-forme.ru
+  skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 03 - djkyc
-  server: 45.86.158.53
+  server: 4f070970.con.metricdraft.tech
   port: 443
   udp: true
-  type: vless
-  uuid: 082ff568-e0f1-42af-ad7c-2c46adde1273
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: -ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk
-    short-id: 597e1c279d224774
-  servername: 4c980ft.fi15.h1clayd.click
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 04 - djkyc
-  server: 65.108.240.210
-  port: 39018
-  udp: true
-  type: vmess
-  uuid: 96c987c9-c2d9-4993-b9bd-c9bc36255ee1
-  alterId: 0
-  cipher: auto
+  type: hysteria2
+  password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
+  sni: 4f070970.con.metricdraft.tech
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,7 +36,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - djkyc
   - 🇫🇮 芬兰 (Finland) 02 - djkyc
   - 🇫🇮 芬兰 (Finland) 03 - djkyc
-  - 🇫🇮 芬兰 (Finland) 04 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,6 +44,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - djkyc
   - 🇫🇮 芬兰 (Finland) 02 - djkyc
   - 🇫🇮 芬兰 (Finland) 03 - djkyc
-  - 🇫🇮 芬兰 (Finland) 04 - djkyc
 rules:
 - MATCH,PROXIES

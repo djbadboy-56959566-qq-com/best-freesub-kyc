@@ -22,18 +22,19 @@ proxies:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: a7c92e4b10d6f835
   servername: ns-api-gw.galioncc.com
-  client-fingerprint: chrome
+  client-fingerprint: ios
 - name: 🇸🇪 瑞典 (Sweden) 03 - djkyc
-  server: 138.199.55.230
-  port: 1270
+  server: 138.124.86.230
+  port: 48115
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
   tls: true
-  servername: xmfhlpy.com
+  servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
 - name: 🇸🇪 瑞典 (Sweden) 04 - djkyc
   server: 62.93.166.184
   port: 1270
@@ -46,31 +47,29 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 05 - djkyc
-  server: 138.124.86.230
-  port: 48115
+  server: 138.199.55.230
+  port: 1270
   udp: true
-  type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: 138-124-86-230.sslip.io
+  servername: xmfhlpy.com
   skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
 - name: 🇸🇪 瑞典 (Sweden) 06 - djkyc
-  server: 188.225.46.6
+  server: sajed.kdns.fr
   port: 443
   udp: true
   type: vless
-  uuid: a077dc9a-712f-48ea-b75c-d94af64011ec
-  flow: xtls-rprx-vision
-  tls: true
-  servername: spb.b2ai.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  uuid: cffa0e31-7cce-4541-8a2e-4e115873090b
+  network: ws
+  ws-opts:
+    path: /@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
+    headers:
+      Host: sajed.kdns.fr
 - name: 🇸🇪 瑞典 (Sweden) 07 - djkyc
-  server: depotchannel.lucheeebezlimitnoekino.stream
+  server: 2.26.93.106
   port: 443
   udp: true
   type: vless
@@ -83,17 +82,6 @@ proxies:
   ws-opts:
     path: /media/ws/
 - name: 🇸🇪 瑞典 (Sweden) 08 - djkyc
-  server: sajed.kdns.fr
-  port: 443
-  udp: true
-  type: vless
-  uuid: cffa0e31-7cce-4541-8a2e-4e115873090b
-  network: ws
-  ws-opts:
-    path: /@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
-    headers:
-      Host: sajed.kdns.fr
-- name: 🇸🇪 瑞典 (Sweden) 09 - djkyc
   server: 5.178.109.174
   port: 14430
   udp: true
@@ -117,7 +105,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 06 - djkyc
   - 🇸🇪 瑞典 (Sweden) 07 - djkyc
   - 🇸🇪 瑞典 (Sweden) 08 - djkyc
-  - 🇸🇪 瑞典 (Sweden) 09 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -131,6 +118,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 06 - djkyc
   - 🇸🇪 瑞典 (Sweden) 07 - djkyc
   - 🇸🇪 瑞典 (Sweden) 08 - djkyc
-  - 🇸🇪 瑞典 (Sweden) 09 - djkyc
 rules:
 - MATCH,PROXIES

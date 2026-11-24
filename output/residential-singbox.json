@@ -12,16 +12,8 @@
       "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 德国 (Germany) 02 (移动家宽) - djkyc",
-      "server": "47.254.167.157",
-      "server_port": 443,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
-    },
-    {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
       "server": "60.248.219.78",
       "server_port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
@@ -40,7 +32,7 @@
     },
     {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - djkyc",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
       "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
@@ -52,19 +44,7 @@
     },
     {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - djkyc",
-      "server": "a54ge.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "docs.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - djkyc",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - djkyc",
       "server": "er8u54dh.df6h451rh.xin",
       "server_port": 443,
       "password": "2902c46c8493",
@@ -76,10 +56,22 @@
     },
     {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - djkyc",
-      "server": "rtifgjdr.df6h451rh.xin",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - djkyc",
+      "server": "5641sdds.df6h451rh.xin",
       "server_port": 443,
-      "password": "2902c46c8493",
+      "password": "0324fbc29561",
+      "tls": {
+        "enabled": true,
+        "server_name": "images.ctfassets.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "anytls",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - djkyc",
+      "server": "a54ge.df6h451rh.xin",
+      "server_port": 443,
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
         "server_name": "docs.microsoft.com",
@@ -88,7 +80,7 @@
     },
     {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - djkyc",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - djkyc",
       "server": "ibsdsf.df6h451rh.xin",
       "server_port": 443,
       "password": "2902c46c8493",
@@ -99,18 +91,39 @@
       }
     },
     {
+      "type": "anytls",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - djkyc",
+      "server": "rtifgjdr.df6h451rh.xin",
+      "server_port": 443,
+      "password": "2902c46c8493",
+      "tls": {
+        "enabled": true,
+        "server_name": "docs.microsoft.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 德国 (Germany) 09 (移动家宽) - djkyc",
+      "server": "8.209.73.203",
+      "server_port": 443,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇩🇪 德国 (Germany) 01 (移动家宽) - djkyc",
-        "🇩🇪 德国 (Germany) 02 (移动家宽) - djkyc",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - djkyc",
+        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - djkyc",
         "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - djkyc"
+        "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - djkyc",
+        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - djkyc",
+        "🇩🇪 德国 (Germany) 09 (移动家宽) - djkyc"
       ]
     },
     {
@@ -118,13 +131,14 @@
       "tag": "auto",
       "outbounds": [
         "🇩🇪 德国 (Germany) 01 (移动家宽) - djkyc",
-        "🇩🇪 德国 (Germany) 02 (移动家宽) - djkyc",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - djkyc",
+        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - djkyc",
         "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - djkyc"
+        "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - djkyc",
+        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - djkyc",
+        "🇩🇪 德国 (Germany) 09 (移动家宽) - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

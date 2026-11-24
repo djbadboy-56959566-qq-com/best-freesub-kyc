@@ -5,14 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - djkyc
-  server: 130.49.189.158
-  port: 43558
+  server: 136.148.83.69
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: JYevOrmujurJsNP1ata0kNfjsxwFLAhgD73mrZPJP1I=
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  tls: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
 - name: 🇷🇺 俄罗斯 (Russia) 02 - djkyc
-  server: 200.169.179.233
+  server: 103.88.243.142
+  port: 11592
+  udp: true
+  type: hysteria2
+  password: 41edb44c8e
+  sni: 103.88.243.142
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 03 - djkyc
+  server: 201.51.12.98
   port: 443
   udp: true
   type: vless
@@ -20,42 +31,11 @@ proxies:
   tls: true
   servername: vps3.nemnogogo.com
   skip-cert-verify: false
-  client-fingerprint: ios
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: 🇷🇺 俄罗斯 (Russia) 03 - djkyc
-  server: 103.88.243.142
-  port: 11592
-  udp: true
-  type: hysteria2
-  password: 41edb44c8e
-  sni: srv-17e124.21freedom.net
-  skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - djkyc
-  server: 136.148.83.70
-  port: 443
-  udp: true
-  type: vless
-  uuid: 00000000-0000-0001-0000-000000000000
-  tls: true
-  servername: aszbk-ru-78dc.my-fade.cloud
-  skip-cert-verify: false
-  client-fingerprint: qq
-- name: 🇷🇺 俄罗斯 (Russia) 05 - djkyc
-  server: 212.233.90.78
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9548ef84-b54d-41dc-b17c-9da21d52ba82
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: FwPphm8xGAKY6u74WDRVrcVye3A7GdLDfJoNSDWFsFQ
-    short-id: 2c6df23e
-  servername: birch-ledger.justext.space
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 06 - djkyc
   server: xssite.webredirect.org
   port: 443
   udp: true
@@ -68,21 +48,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 07 - djkyc
-  server: 185.178.208.167
-  port: 443
-  udp: true
-  type: vless
-  uuid: c2b17066-5386-0001-803b-5e652c0528f9
-  tls: true
-  servername: trx.tools
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /session
-    headers:
-      Host: api.14887277.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -92,9 +57,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 03 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 04 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 05 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 06 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 07 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -104,8 +66,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 03 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 04 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 05 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 06 - djkyc
-  - 🇷🇺 俄罗斯 (Russia) 07 - djkyc
 rules:
 - MATCH,PROXIES

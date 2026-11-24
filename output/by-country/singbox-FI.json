@@ -8,7 +8,7 @@
       "tag": "🇫🇮 芬兰 (Finland) 01 - djkyc",
       "server": "65.108.240.210",
       "server_port": 39018,
-      "uuid": "45dc10c6-04c8-4c70-a06a-d396254a6c0b",
+      "uuid": "fa15684a-81e6-4ba7-bc4b-f601c0d998e9",
       "security": "auto"
     },
     {
@@ -19,38 +19,21 @@
       "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "tls": {
         "enabled": true,
-        "server_name": "94.183.164.119",
-        "insecure": true
+        "server_name": "lakes.blog-forme.ru",
+        "insecure": false
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇫🇮 芬兰 (Finland) 03 - djkyc",
-      "server": "45.86.158.53",
+      "server": "4f070970.con.metricdraft.tech",
       "server_port": 443,
-      "uuid": "082ff568-e0f1-42af-ad7c-2c46adde1273",
-      "flow": "xtls-rprx-vision",
+      "password": "030e421e-9317-4cb8-8fbe-a07a565ad3db",
       "tls": {
         "enabled": true,
-        "server_name": "4c980ft.fi15.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk",
-          "short_id": "597e1c279d224774"
-        }
+        "server_name": "4f070970.con.metricdraft.tech",
+        "insecure": false
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - djkyc",
-      "server": "65.108.240.210",
-      "server_port": 39018,
-      "uuid": "96c987c9-c2d9-4993-b9bd-c9bc36255ee1",
-      "security": "auto"
     },
     {
       "type": "selector",
@@ -59,8 +42,7 @@
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - djkyc",
         "🇫🇮 芬兰 (Finland) 02 - djkyc",
-        "🇫🇮 芬兰 (Finland) 03 - djkyc",
-        "🇫🇮 芬兰 (Finland) 04 - djkyc"
+        "🇫🇮 芬兰 (Finland) 03 - djkyc"
       ]
     },
     {
@@ -69,8 +51,7 @@
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - djkyc",
         "🇫🇮 芬兰 (Finland) 02 - djkyc",
-        "🇫🇮 芬兰 (Finland) 03 - djkyc",
-        "🇫🇮 芬兰 (Finland) 04 - djkyc"
+        "🇫🇮 芬兰 (Finland) 03 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
