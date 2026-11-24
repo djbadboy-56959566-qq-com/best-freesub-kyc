@@ -4,36 +4,66 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇫🇮 芬兰 (Finland) 01 - djkyc",
-      "server": "65.108.240.210",
-      "server_port": 39018,
-      "uuid": "fa15684a-81e6-4ba7-bc4b-f601c0d998e9",
-      "security": "auto"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - djkyc",
+      "tag": "🇫🇮 芬兰 (Finland) 01 - djkyc",
       "server": "94.183.164.119",
       "server_port": 24433,
       "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "tls": {
         "enabled": true,
-        "server_name": "lakes.blog-forme.ru",
-        "insecure": false
+        "server_name": "94.183.164.119",
+        "insecure": true
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - djkyc",
-      "server": "4f070970.con.metricdraft.tech",
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - djkyc",
+      "server": "196.196.208.22",
       "server_port": 443,
-      "password": "030e421e-9317-4cb8-8fbe-a07a565ad3db",
+      "uuid": "cae99415-10a6-4317-81bd-19a4586b5d76",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "4f070970.con.metricdraft.tech",
-        "insecure": false
+        "server_name": "8a0f3at.fi-p1b.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3Ya7Erk_G6wlvuy6ekUzCW7zxnaDivdUzkkJXTFXcWs",
+          "short_id": "96f94f6200195aae"
+        }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - djkyc",
+      "server": "157.180.98.124",
+      "server_port": 49659,
+      "uuid": "88a558b1-9645-42f3-89e5-341570d8486d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bBVqro8tG6swTNoAkjwUzcu4Ew4N4VcyDHzADcGviCs",
+          "short_id": "81959fce"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - djkyc",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "77fb7a80-4724-4e33-9558-4f20c1634c5a",
+      "security": "auto"
     },
     {
       "type": "selector",
@@ -42,7 +72,8 @@
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - djkyc",
         "🇫🇮 芬兰 (Finland) 02 - djkyc",
-        "🇫🇮 芬兰 (Finland) 03 - djkyc"
+        "🇫🇮 芬兰 (Finland) 03 - djkyc",
+        "🇫🇮 芬兰 (Finland) 04 - djkyc"
       ]
     },
     {
@@ -51,7 +82,8 @@
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - djkyc",
         "🇫🇮 芬兰 (Finland) 02 - djkyc",
-        "🇫🇮 芬兰 (Finland) 03 - djkyc"
+        "🇫🇮 芬兰 (Finland) 03 - djkyc",
+        "🇫🇮 芬兰 (Finland) 04 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
