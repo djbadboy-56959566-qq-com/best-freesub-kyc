@@ -7,45 +7,13 @@
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 01 - djkyc",
       "server": "5.188.181.201",
-      "server_port": 9005,
+      "server_port": 9014,
       "method": "aes-256-cfb",
-      "password": "ZET59LF6DvCC8KVt"
+      "password": "KnJGad3FqTvjqbaX"
     },
     {
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 02 - djkyc",
-      "server": "5.188.181.201",
-      "server_port": 9054,
-      "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - djkyc",
-      "server": "5.188.181.201",
-      "server_port": 9020,
-      "method": "aes-256-cfb",
-      "password": "BNmAXXxAHYpTRdzu"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - djkyc",
-      "server": "5.188.181.201",
-      "server_port": 9019,
-      "method": "aes-256-cfb",
-      "password": "GA9KzeEgvfxNrgmM"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - djkyc",
-      "server": "5.188.181.201",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - djkyc",
       "server": "5.188.181.201",
       "server_port": 9003,
       "method": "aes-256-cfb",
@@ -53,19 +21,51 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - djkyc",
+      "server": "5.188.181.201",
+      "server_port": 9054,
+      "method": "aes-256-cfb",
+      "password": "VcFuyXvND2yQWSFY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - djkyc",
+      "server": "5.188.181.201",
+      "server_port": 9020,
+      "method": "aes-256-cfb",
+      "password": "BNmAXXxAHYpTRdzu"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - djkyc",
+      "server": "5.188.181.201",
+      "server_port": 9041,
+      "method": "aes-256-cfb",
+      "password": "U6qnYRhfyDmn8sgn"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 06 - djkyc",
+      "server": "5.188.181.201",
+      "server_port": 9019,
+      "method": "aes-256-cfb",
+      "password": "GA9KzeEgvfxNrgmM"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 07 - djkyc",
       "server": "5.188.181.201",
-      "server_port": 9029,
+      "server_port": 9000,
       "method": "aes-256-cfb",
-      "password": "dU3DSNS8wYPXzEKw"
+      "password": "a3GFYt36Sm82Vys9"
     },
     {
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 08 - djkyc",
-      "server": "62.93.179.117",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "server": "5.188.181.201",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "TN2YqghxeFDKZfLU"
     },
     {
       "type": "shadowsocks",
@@ -78,46 +78,38 @@
     {
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 10 - djkyc",
+      "server": "5.188.181.201",
+      "server_port": 9025,
+      "method": "aes-256-cfb",
+      "password": "XPtzA9sCug3SPR4c"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 11 - djkyc",
+      "server": "62.93.179.117",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 12 - djkyc",
       "server": "62.93.179.97",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 11 - djkyc",
-      "server": "66.163.118.115",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 12 - djkyc",
-      "server": "66.163.118.40",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "66.163.118.40",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 13 - djkyc",
+      "server": "5.188.181.201",
+      "server_port": 9040,
+      "method": "aes-256-cfb",
+      "password": "p9z5BVADH2YFs3MN"
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 13 - djkyc",
+      "tag": "🇪🇸 西班牙 (Spain) 14 - djkyc",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -133,6 +125,38 @@
           "enabled": true,
           "public_key": "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE",
           "short_id": "0dfc23fe80778c00"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 15 - djkyc",
+      "server": "66.163.118.40",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 16 - djkyc",
+      "server": "66.163.118.131",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -153,7 +177,10 @@
         "🇪🇸 西班牙 (Spain) 10 - djkyc",
         "🇪🇸 西班牙 (Spain) 11 - djkyc",
         "🇪🇸 西班牙 (Spain) 12 - djkyc",
-        "🇪🇸 西班牙 (Spain) 13 - djkyc"
+        "🇪🇸 西班牙 (Spain) 13 - djkyc",
+        "🇪🇸 西班牙 (Spain) 14 - djkyc",
+        "🇪🇸 西班牙 (Spain) 15 - djkyc",
+        "🇪🇸 西班牙 (Spain) 16 - djkyc"
       ]
     },
     {
@@ -172,7 +199,10 @@
         "🇪🇸 西班牙 (Spain) 10 - djkyc",
         "🇪🇸 西班牙 (Spain) 11 - djkyc",
         "🇪🇸 西班牙 (Spain) 12 - djkyc",
-        "🇪🇸 西班牙 (Spain) 13 - djkyc"
+        "🇪🇸 西班牙 (Spain) 13 - djkyc",
+        "🇪🇸 西班牙 (Spain) 14 - djkyc",
+        "🇪🇸 西班牙 (Spain) 15 - djkyc",
+        "🇪🇸 西班牙 (Spain) 16 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
