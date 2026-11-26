@@ -6,46 +6,30 @@
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - djkyc",
-      "server": "109.248.148.138",
-      "server_port": 11468,
-      "method": "aes-128-gcm",
-      "password": "263bc9e3c41ea70e1d4d2e89c8fa837a"
+      "server": "185.135.86.175",
+      "server_port": 9086,
+      "method": "aes-256-cfb",
+      "password": "37Z4TFCYhfxcpc9Q"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - djkyc",
       "server": "185.135.86.175",
-      "server_port": 9036,
+      "server_port": 9007,
       "method": "aes-256-cfb",
-      "password": "hbtvgUz5uNYyB3Rf"
+      "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - djkyc",
       "server": "185.135.86.175",
-      "server_port": 9034,
+      "server_port": 9007,
       "method": "aes-256-cfb",
-      "password": "Yg4MbdXFQ9HFFVY6"
+      "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - djkyc",
-      "server": "185.135.86.175",
-      "server_port": 9068,
-      "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - djkyc",
-      "server": "185.135.86.175",
-      "server_port": 9082,
-      "method": "aes-256-cfb",
-      "password": "45xgMgm386pjWjTx"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - djkyc",
       "server": "185.135.86.175",
       "server_port": 9094,
       "method": "aes-256-cfb",
@@ -53,11 +37,27 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - djkyc",
+      "server": "185.135.86.175",
+      "server_port": 9034,
+      "method": "aes-256-cfb",
+      "password": "Yg4MbdXFQ9HFFVY6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - djkyc",
+      "server": "185.135.86.175",
+      "server_port": 9082,
+      "method": "aes-256-cfb",
+      "password": "45xgMgm386pjWjTx"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - djkyc",
       "server": "185.135.86.175",
-      "server_port": 9007,
+      "server_port": 9033,
       "method": "aes-256-cfb",
-      "password": "kSPmvwdFzGMMW5pY"
+      "password": "UTJA57ypk2XKQpnm"
     },
     {
       "type": "vless",
@@ -82,31 +82,46 @@
     {
       "type": "vless",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 09 - djkyc",
-      "server": "94.183.234.245",
+      "server": "62.60.148.146",
       "server_port": 443,
-      "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
-      "flow": "xtls-rprx-vision",
+      "uuid": "81c91c05-179f-4b87-95ca-3306677fb310",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "g-it-2.r3vgawew123fg.pics",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
-          "short_id": "7f1e29593aa94ad1"
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "g-it-2.r3vgawew123fg.pics"
         }
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 10 - djkyc",
-      "server": "185.135.86.175",
-      "server_port": 9086,
-      "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
+      "server": "195.123.213.28",
+      "server_port": 443,
+      "uuid": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
+          "short_id": "5c256336e3b673fa"
+        }
+      }
     },
     {
       "type": "selector",

@@ -6,50 +6,55 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - djkyc",
-      "server": "202.146.222.89",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "server": "23.141.172.229",
+      "server_port": 50541,
+      "password": "ePPsH1bMFD",
       "tls": {
         "enabled": true,
-        "server_name": "vk.com",
+        "server_name": "is1-ssl.mzstatic.com",
         "insecure": true
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - djkyc",
-      "server": "202.146.222.174",
+      "server": "8.210.92.38",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "uuid": "4fc9dc3d-0d57-49e7-9bc0-e323165241bf",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3",
-        "insecure": true
+        "server_name": "www.ebay.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vhu6gifBQ8-hRzW1gqKFkEXDlQbf6Ex8kKj1FcxhmzA",
+          "short_id": "d78318845237d9a9"
+        }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - djkyc",
-      "server": "vpn-hk-004.fastervpn.world",
+      "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-hk-004.fastervpn.world",
+        "server_name": "202.146.222.89",
         "insecure": true
       }
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - djkyc",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/wangcai2ð¨ð³",
-        "insecure": true
-      }
+      "server": "waic.pro.main.sys-metric-report.com",
+      "server_port": 28014,
+      "method": "chacha20-ietf-poly1305",
+      "password": "abc62f00-95a8-4c2e-a85d-36a2cdc977da"
     },
     {
       "type": "vless",
@@ -73,79 +78,32 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 06 - djkyc",
-      "server": "116.213.43.43",
-      "server_port": 11107,
-      "uuid": "08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f",
-      "flow": "xtls-rprx-vision",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U",
-          "short_id": "e2ccd8eedcbee2ce"
-        }
+        "server_name": "https://t.me/wangcai2рҹүёрҹүі",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 07 - djkyc",
-      "server": "vl-x2.qz10086.top",
-      "server_port": 38101,
-      "uuid": "d235ad20-8f30-441e-871e-ee2695e4c430",
-      "flow": "xtls-rprx-vision",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "j7lihAdLvNKWg67WMGQsRSM8WFbaUK5dAi7D2R7iXHM",
-          "short_id": "d5a01375"
-        }
+        "server_name": "https://t.me/wangcai2",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇭🇰 中国香港 (Hong Kong) 08 - djkyc",
-      "server": "116.213.43.43",
-      "server_port": 11102,
-      "uuid": "530d31fc-2690-49e4-bfc9-3f991e145008",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0",
-          "short_id": "ed571d022f7bc3bf"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - djkyc",
-      "server": "27.124.5.86",
-      "server_port": 8388,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - djkyc",
       "server": "213.176.92.148",
       "server_port": 40647,
       "method": "aes-256-gcm",
@@ -153,7 +111,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - djkyc",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - djkyc",
       "server": "152.32.254.68",
       "server_port": 5010,
       "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
@@ -165,27 +123,6 @@
       "obfs": {
         "type": "salamander",
         "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - djkyc",
-      "server": "8.217.1.203",
-      "server_port": 8443,
-      "uuid": "8b17beac-b143-447d-aa68-14cbb121a602",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38",
-          "short_id": "0bf55f64"
-        }
       }
     },
     {
@@ -201,10 +138,7 @@
         "🇭🇰 中国香港 (Hong Kong) 06 - djkyc",
         "🇭🇰 中国香港 (Hong Kong) 07 - djkyc",
         "🇭🇰 中国香港 (Hong Kong) 08 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 09 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 10 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 11 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 12 - djkyc"
+        "🇭🇰 中国香港 (Hong Kong) 09 - djkyc"
       ]
     },
     {
@@ -219,10 +153,7 @@
         "🇭🇰 中国香港 (Hong Kong) 06 - djkyc",
         "🇭🇰 中国香港 (Hong Kong) 07 - djkyc",
         "🇭🇰 中国香港 (Hong Kong) 08 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 09 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 10 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 11 - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 12 - djkyc"
+        "🇭🇰 中国香港 (Hong Kong) 09 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

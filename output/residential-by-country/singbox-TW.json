@@ -6,12 +6,12 @@
     {
       "type": "anytls",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - djkyc",
-      "server": "er8u54dh.df6h451rh.xin",
+      "server": "a54ge.df6h451rh.xin",
       "server_port": 443,
-      "password": "2902c46c8493",
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "px.ads.linkedin.com",
+        "server_name": "docs.microsoft.com",
         "insecure": true
       }
     },
@@ -28,38 +28,12 @@
       }
     },
     {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
-      "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "px.ads.linkedin.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - djkyc",
-      "server": "a54ge.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "docs.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - djkyc"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc"
       ]
     },
     {
@@ -67,9 +41,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - djkyc"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
