@@ -12,15 +12,12 @@ proxies:
   cipher: aes-128-gcm
   password: ff4d354078394558933d699be149ad69
 - name: 🇹🇷 土耳其 (Turkey) 02 - djkyc
-  server: turkey-ip1.mmdaqaorg.xyz
-  port: 50738
+  server: tr.subscriptionservice.ir
+  port: 2089
   udp: true
-  type: vless
-  uuid: 56665684-5ac0-4ba9-9d49-8b258fb57974
-  tls: true
-  servername: turkey-ip1.mmdaqaorg.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: T199MCnogZBKi0QJdcSgUnoL3U9wl7t1
 proxy-groups:
 - name: PROXIES
   type: select
