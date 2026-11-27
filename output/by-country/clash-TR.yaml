@@ -5,27 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - djkyc
-  server: turkey-ip1.mmdaqaorg.xyz
-  port: 50738
-  udp: true
-  type: vless
-  uuid: 56665684-5ac0-4ba9-9d49-8b258fb57974
-  tls: true
-  servername: turkey-ip1.mmdaqaorg.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 02 - djkyc
-  server: v2new.nimbaha9.ir
-  port: 8080
-  udp: true
-  type: vless
-  uuid: f279c19a-b324-40cf-af57-049f9b1b68f2
-  network: ws
-  ws-opts:
-    path: /XDS45
-    headers:
-      Host: v2new.nimbaha9.ir
-- name: 🇹🇷 土耳其 (Turkey) 03 - djkyc
   server: tr.subscriptionservice.ir
   port: 2089
   udp: true
@@ -38,15 +17,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - djkyc
-  - 🇹🇷 土耳其 (Turkey) 02 - djkyc
-  - 🇹🇷 土耳其 (Turkey) 03 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - djkyc
-  - 🇹🇷 土耳其 (Turkey) 02 - djkyc
-  - 🇹🇷 土耳其 (Turkey) 03 - djkyc
 rules:
 - MATCH,PROXIES

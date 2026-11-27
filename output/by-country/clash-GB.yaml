@@ -33,6 +33,13 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇬🇧 英国 (United Kingdom) 05 - djkyc
+  server: 146.70.61.37
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 06 - djkyc
   server: 51.89.194.151
   port: 2053
   udp: true
@@ -44,13 +51,6 @@ proxies:
     short-id: c36042c276917a43
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 06 - djkyc
-  server: 66.163.117.141
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: n87cM0Lv7Y3T
 - name: 🇬🇧 英国 (United Kingdom) 07 - djkyc
   server: 136.176.68.34
   port: 443
@@ -76,21 +76,6 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇬🇧 英国 (United Kingdom) 09 - djkyc
-  server: 128.254.186.190
-  port: 13337
-  udp: true
-  type: hysteria2
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  sni: mother-earth.fyi
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 10 - djkyc
-  server: 146.70.46.214
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 11 - djkyc
   server: 142.202.51.42
   port: 1270
   udp: true
@@ -101,6 +86,20 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
+- name: 🇬🇧 英国 (United Kingdom) 10 - djkyc
+  server: 142.202.51.22
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇬🇧 英国 (United Kingdom) 11 - djkyc
+  server: 141.98.101.182
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 🇬🇧 英国 (United Kingdom) 12 - djkyc
   server: 146.70.61.18
   port: 8080
@@ -109,13 +108,28 @@ proxies:
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
 - name: 🇬🇧 英国 (United Kingdom) 13 - djkyc
-  server: 141.98.101.182
-  port: 443
+  server: 146.70.61.18
+  port: 8080
   udp: true
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇬🇧 英国 (United Kingdom) 14 - djkyc
+  server: 146.70.46.214
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 15 - djkyc
+  server: 128.254.186.190
+  port: 13337
+  udp: true
+  type: hysteria2
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 16 - djkyc
   server: 138.124.125.193
   port: 10444
   udp: true
@@ -127,35 +141,21 @@ proxies:
     public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
     short-id: 8debcf36f1cc69ff
   servername: ads.x5.ru
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 15 - djkyc
-  server: 98.98.207.163
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 16 - djkyc
-  server: 146.70.61.37
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  client-fingerprint: safari
 - name: 🇬🇧 英国 (United Kingdom) 17 - djkyc
-  server: 98.98.142.161
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 18 - djkyc
   server: 146.70.46.199
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 18 - djkyc
+  server: 94.156.250.148
+  port: 7001
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
 - name: 🇬🇧 英国 (United Kingdom) 19 - djkyc
   server: 193.188.21.253
   port: 14430
@@ -168,16 +168,12 @@ proxies:
     headers:
       Host: 193.188.21.253
 - name: 🇬🇧 英国 (United Kingdom) 20 - djkyc
-  server: 213.176.92.168
-  port: 14430
+  server: 98.98.207.163
+  port: 8080
   udp: true
-  type: vless
-  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 213.176.92.168
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇬🇧 英国 (United Kingdom) 21 - djkyc
   server: 193.188.21.253
   port: 10444
@@ -192,18 +188,6 @@ proxies:
   servername: video.yandex.ru
   client-fingerprint: firefox
 - name: 🇬🇧 英国 (United Kingdom) 22 - djkyc
-  server: 144.31.75.168
-  port: 443
-  udp: true
-  type: vless
-  uuid: b0fd9db4-24b8-45d0-88e1-c709c97646e6
-  tls: true
-  reality-opts:
-    public-key: _OxeyvQDpHcak4ou_pmWb5GmhWcG1j7A8LOIqYXghxg
-    short-id: 2177a83232995047
-  servername: www.fortum.com
-  client-fingerprint: edge
-- name: 🇬🇧 英国 (United Kingdom) 23 - djkyc
   server: 46.250.240.80
   port: 2053
   udp: true
@@ -215,65 +199,13 @@ proxies:
     short-id: 3611e663b53177f2
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 24 - djkyc
-  server: 104.18.32.47
-  port: 443
-  udp: true
-  type: vless
-  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
-  tls: true
-  servername: sinavm2.soft10.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm2.soft10.ir
-- name: 🇬🇧 英国 (United Kingdom) 25 - djkyc
-  server: 213.176.92.168
-  port: 10444
-  udp: true
-  type: vless
-  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  servername: video.yandex.ru
-  client-fingerprint: safari
-- name: 🇬🇧 英国 (United Kingdom) 26 - djkyc
-  server: 142.202.51.22
-  port: 19999
+- name: 🇬🇧 英国 (United Kingdom) 23 - djkyc
+  server: 98.98.142.161
+  port: 8080
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇬🇧 英国 (United Kingdom) 27 - djkyc
-  server: 83.147.18.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
-    short-id: fd8cf7e1173f0edb
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 28 - djkyc
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vless
-  uuid: 9e20b04d-5a81-4e16-b421-01e502f0aac6
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: google.com
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 proxy-groups:
 - name: PROXIES
   type: select
@@ -302,11 +234,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 21 - djkyc
   - 🇬🇧 英国 (United Kingdom) 22 - djkyc
   - 🇬🇧 英国 (United Kingdom) 23 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 24 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 25 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 26 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 27 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 28 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -335,10 +262,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 21 - djkyc
   - 🇬🇧 英国 (United Kingdom) 22 - djkyc
   - 🇬🇧 英国 (United Kingdom) 23 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 24 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 25 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 26 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 27 - djkyc
-  - 🇬🇧 英国 (United Kingdom) 28 - djkyc
 rules:
 - MATCH,PROXIES

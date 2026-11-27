@@ -5,15 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - djkyc
-  server: 94.183.164.119
-  port: 24433
-  udp: true
-  type: hysteria2
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: 94.183.164.119
-  skip-cert-verify: true
-- name: 🇫🇮 芬兰 (Finland) 02 - djkyc
-  server: 2.27.203.38
+  server: 201.58.176.19
   port: 443
   udp: true
   type: vless
@@ -21,18 +13,31 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: Xuy5y3WGJjkxyUtkhiY87dwndv4fuD45gO64TWnlThI
-    short-id: fd0cc2b3ac52deb8
-  servername: www.google.com
-  client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 03 - djkyc
-  server: 4f070970.con.metricdraft.tech
-  port: 443
+    public-key: LkXRut71yrHguNpmKfCrLITrAxk7amJiI2npZ4jRYx8
+    short-id: 06df4d3e93672c24
+  servername: lesson9.schoolpizorbz.xyz
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 02 - djkyc
+  server: 94.183.164.119
+  port: 24433
   udp: true
   type: hysteria2
-  password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
-  sni: 4f070970.con.metricdraft.tech
-  skip-cert-verify: false
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: 94.183.164.119
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 (Finland) 03 - djkyc
+  server: 2.27.122.255
+  port: 443
+  udp: true
+  type: vless
+  uuid: e307f400-d65e-4afd-bfe2-9a54deca5678
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg
+    short-id: d52d3ecf49447c2a
+  servername: sun9-37.userapi.com
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
