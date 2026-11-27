@@ -5,20 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - djkyc
-  server: 151.241.19.36
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 02 - djkyc
   server: 151.241.19.29
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 02 - djkyc
+  server: 151.241.19.36
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 03 - djkyc
+  server: 95.174.68.188
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+- name: 🇦🇪 阿联酋 (UAE) 04 - djkyc
   server: 84.235.244.108
   port: 22573
   udp: true
@@ -29,15 +40,18 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - djkyc
-  server: 95.174.68.188
-  port: 14430
+- name: 🇦🇪 阿联酋 (UAE) 05 - djkyc
+  server: 213.183.41.31
+  port: 8459
   udp: true
   type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  tls: true
+  servername: photos.plumstatic.com
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vless
+    path: /ws
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,6 +61,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - djkyc
   - 🇦🇪 阿联酋 (UAE) 03 - djkyc
   - 🇦🇪 阿联酋 (UAE) 04 - djkyc
+  - 🇦🇪 阿联酋 (UAE) 05 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +71,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - djkyc
   - 🇦🇪 阿联酋 (UAE) 03 - djkyc
   - 🇦🇪 阿联酋 (UAE) 04 - djkyc
+  - 🇦🇪 阿联酋 (UAE) 05 - djkyc
 rules:
 - MATCH,PROXIES
