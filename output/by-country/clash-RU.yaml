@@ -12,6 +12,31 @@ proxies:
   cipher: aes-256-gcm
   password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
 - name: 🇷🇺 俄罗斯 (Russia) 02 - djkyc
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+- name: 🇷🇺 俄罗斯 (Russia) 03 - djkyc
+  server: 185.22.152.168
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇷🇺 俄罗斯 (Russia) 04 - djkyc
+  server: 194.26.229.207
+  port: 2200
+  udp: true
+  type: vless
+  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: 🇷🇺 俄罗斯 (Russia) 05 - djkyc
   server: 194.26.229.207
   port: 4100
   udp: true
@@ -22,36 +47,15 @@ proxies:
     path: /v1
     headers:
       Host: live.ok.ru
-- name: 🇷🇺 俄罗斯 (Russia) 03 - djkyc
-  server: 185.22.152.168
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🇷🇺 俄罗斯 (Russia) 04 - djkyc
-  server: 201.51.12.98
-  port: 443
-  udp: true
-  type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  tls: true
-  servername: vps3.nemnogogo.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: 🇷🇺 俄罗斯 (Russia) 05 - djkyc
+- name: 🇷🇺 俄罗斯 (Russia) 06 - djkyc
   server: 136.148.83.69
   port: 443
   udp: true
-  type: vless
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
+  type: hysteria2
+  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
+  sni: szqbx-ru-77dc.my-fade.cloud
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 06 - djkyc
+- name: 🇷🇺 俄罗斯 (Russia) 07 - djkyc
   server: 200.169.179.233
   port: 443
   udp: true
@@ -64,8 +68,21 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: 🇷🇺 俄罗斯 (Russia) 07 - djkyc
-  server: 164.37.224.51
+- name: 🇷🇺 俄罗斯 (Russia) 08 - djkyc
+  server: xssite.webredirect.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xssite.webredirect.org
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 俄罗斯 (Russia) 09 - djkyc
+  server: 5d0319t.nl7.h1clayd.click
   port: 443
   udp: true
   type: vless
@@ -76,28 +93,21 @@ proxies:
     short-id: 361d0dd59c70516f
   servername: 5d0319t.nl7.h1clayd.click
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 08 - djkyc
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
-- name: 🇷🇺 俄罗斯 (Russia) 09 - djkyc
-  server: 147.45.175.81
-  port: 443
+- name: 🇷🇺 俄罗斯 (Russia) 10 - djkyc
+  server: xinnusvpn.duckdns.org
+  port: 8443
   udp: true
   type: vless
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: xsru1.ddnsfree.com
+  servername: xinnusvpn.duckdns.org
   skip-cert-verify: false
-  client-fingerprint: edge
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /wsru
+    path: /wsnl
     headers:
-      Host: xsru1.ddnsfree.com
+      Host: xinnusvpn.duckdns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -112,6 +122,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 07 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 08 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 09 - djkyc
+  - 🇷🇺 俄罗斯 (Russia) 10 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -126,5 +137,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 07 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 08 - djkyc
   - 🇷🇺 俄罗斯 (Russia) 09 - djkyc
+  - 🇷🇺 俄罗斯 (Russia) 10 - djkyc
 rules:
 - MATCH,PROXIES

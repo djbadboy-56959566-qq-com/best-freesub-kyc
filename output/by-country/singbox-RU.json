@@ -12,18 +12,12 @@
       "password": "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - djkyc",
-      "server": "194.26.229.207",
-      "server_port": 4100,
-      "uuid": "026ecbd6-2838-40f6-b530-d2c303c4f629",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "live.ok.ru"
-        }
-      }
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
     },
     {
       "type": "shadowsocks",
@@ -36,32 +30,37 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - djkyc",
-      "server": "201.51.12.98",
-      "server_port": 443,
-      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
-      "tls": {
-        "enabled": true,
-        "server_name": "vps3.nemnogogo.com",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
+      "server": "194.26.229.207",
+      "server_port": 2200,
+      "uuid": "026ecbd6-2838-40f6-b530-d2c303c4f629",
       "transport": {
-        "type": "grpc",
-        "service_name": "mobile.api.Event"
+        "type": "ws",
+        "path": "/v1",
+        "headers": {
+          "Host": "rzd.ru"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - djkyc",
+      "server": "194.26.229.207",
+      "server_port": 4100,
+      "uuid": "026ecbd6-2838-40f6-b530-d2c303c4f629",
+      "transport": {
+        "type": "ws",
+        "path": "/v1",
+        "headers": {
+          "Host": "live.ok.ru"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
       "server": "136.148.83.69",
       "server_port": 443,
-      "uuid": "666821a2-5c3d-0001-a56f-5a3a562d7324",
+      "password": "87bb2ac4-b7a1-0001-b11d-2107709ea6cb",
       "tls": {
         "enabled": true,
         "server_name": "szqbx-ru-77dc.my-fade.cloud",
@@ -70,7 +69,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
       "server": "200.169.179.233",
       "server_port": 443,
       "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
@@ -90,8 +89,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
-      "server": "164.37.224.51",
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
+      "server": "xssite.webredirect.org",
+      "server_port": 443,
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "xssite.webredirect.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
+      "server": "5d0319t.nl7.h1clayd.click",
       "server_port": 443,
       "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "tls": {
@@ -109,33 +128,25 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
-      "server": "147.45.175.81",
-      "server_port": 443,
+      "tag": "🇷🇺 俄罗斯 (Russia) 10 - djkyc",
+      "server": "xinnusvpn.duckdns.org",
+      "server_port": 8443,
       "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
       "tls": {
         "enabled": true,
-        "server_name": "xsru1.ddnsfree.com",
+        "server_name": "xinnusvpn.duckdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/wsru",
+        "path": "/wsnl",
         "headers": {
-          "Host": "xsru1.ddnsfree.com"
+          "Host": "xinnusvpn.duckdns.org"
         }
       }
     },
@@ -152,7 +163,8 @@
         "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 09 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 10 - djkyc"
       ]
     },
     {
@@ -167,7 +179,8 @@
         "🇷🇺 俄罗斯 (Russia) 06 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 07 - djkyc",
         "🇷🇺 俄罗斯 (Russia) 08 - djkyc",
-        "🇷🇺 俄罗斯 (Russia) 09 - djkyc"
+        "🇷🇺 俄罗斯 (Russia) 09 - djkyc",
+        "🇷🇺 俄罗斯 (Russia) 10 - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
