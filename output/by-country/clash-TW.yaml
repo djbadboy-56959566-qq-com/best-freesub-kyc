@@ -5,33 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - djkyc
-  server: 85.237.207.221
+  server: 160.187.100.109
   port: 443
   udp: true
-  type: vless
-  uuid: b59bcb5b-5150-4c6b-9227-681886197014
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: lJz7AGWUC-ZTEIJaU5y1GRrROWJ9J_VzQRyrYPmOygs
-    short-id: fd2fa5e06670120b
-  servername: dl.google.com
-  client-fingerprint: chrome
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 'off'
+  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - djkyc
   server: 103.115.109.49
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2
+  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - djkyc
-  server: 160.187.100.109
+  server: mfjh645drfj1dr6j5.df6h451rh.xin
   port: 443
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 160.187.100.109
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 04 - djkyc
   server: 116.213.43.43
@@ -47,16 +42,18 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇹🇼 中国台湾 (Taiwan) 05 - djkyc
-  server: zephyr-tw1.bpca2026.top
+  server: 85.237.207.221
   port: 443
   udp: true
-  type: trojan
-  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
-  sni: zephyr-tw1.bpca2026.top
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /images
+  type: vless
+  uuid: b59bcb5b-5150-4c6b-9227-681886197014
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: lJz7AGWUC-ZTEIJaU5y1GRrROWJ9J_VzQRyrYPmOygs
+    short-id: fd2fa5e06670120b
+  servername: dl.google.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

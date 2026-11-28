@@ -5,18 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - djkyc",
-      "server": "196.198.111.166",
-      "server_port": 8443,
-      "uuid": "f121ffc8-f6dc-4728-a871-a05e3f9cf8c5",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇮🇩 印尼 (Indonesia) 01 (移动家宽) - djkyc",
+      "server": "130.94.95.126",
+      "server_port": 443,
+      "uuid": "ed94398f-893f-40c6-b14c-bf02b5f6be16",
       "tls": {
         "enabled": true,
-        "server_name": "usr-6b09ce88-api-v3.alcors.net",
-        "insecure": false,
+        "server_name": "navi.bankrate.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
         }
       }
     },
@@ -25,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - djkyc"
+        "🇮🇩 印尼 (Indonesia) 01 (移动家宽) - djkyc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - djkyc"
+        "🇮🇩 印尼 (Indonesia) 01 (移动家宽) - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

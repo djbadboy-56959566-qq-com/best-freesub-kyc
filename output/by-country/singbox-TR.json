@@ -4,12 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - djkyc",
-      "server": "tr.subscriptionservice.ir",
-      "server_port": 2089,
-      "method": "chacha20-ietf-poly1305",
-      "password": "lZZzfo1mqH7PqnloAogdi2XBhlgiofMy"
+      "server": "game.celvixo.ir",
+      "server_port": 2087,
+      "uuid": "6c645e26-b26b-4981-75ec-eeebe1c7de2e",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cp.xelzano.ir"
+        }
+      }
     },
     {
       "type": "selector",

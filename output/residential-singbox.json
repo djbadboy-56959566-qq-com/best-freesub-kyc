@@ -5,53 +5,42 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - djkyc",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "aes-256-cfb",
-      "password": "1234!@#$"
+      "tag": "🇩🇪 德国 (Germany) 01 (移动家宽) - djkyc",
+      "server": "18.132.195.197",
+      "server_port": 443,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
-      "server": "23.227.38.18",
+      "tag": "🇮🇩 印尼 (Indonesia) 02 (移动家宽) - djkyc",
+      "server": "130.94.95.126",
       "server_port": 443,
-      "uuid": "531d9e93-53be-4f05-a9c1-33490d4da2f3",
+      "uuid": "ed94398f-893f-40c6-b14c-bf02b5f6be16",
       "tls": {
         "enabled": true,
-        "server_name": "tw1.bbusxxxh.top",
-        "insecure": false,
+        "server_name": "navi.bankrate.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/images",
-        "headers": {
-          "Host": "tw1.bbusxxxh.top"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
         }
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
-      "server": "zhilegelian3.bpca2026.top",
+      "type": "anytls",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - djkyc",
+      "server": "5641sdds.df6h451rh.xin",
       "server_port": 443,
-      "password": "531d9e93-53be-4f05-a9c1-33490d4da2f3",
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "zhilegelian3.bpca2026.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/images"
+        "server_name": "images.ctfassets.net",
+        "insecure": true
       }
     },
     {
@@ -68,51 +57,7 @@
     },
     {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - djkyc",
-      "server": "5641sdds.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.ctfassets.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - djkyc",
-      "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "px.ads.linkedin.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - djkyc",
-      "server": "zhilegelian2.bpca2026.top",
-      "server_port": 443,
-      "password": "531d9e93-53be-4f05-a9c1-33490d4da2f3",
-      "tls": {
-        "enabled": true,
-        "server_name": "zhilegelian2.bpca2026.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/images"
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - djkyc",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - djkyc",
       "server": "a54ge.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
@@ -123,54 +68,26 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - djkyc",
-      "server": "zephyr-tw2.bpca2026.top",
-      "server_port": 443,
-      "password": "531d9e93-53be-4f05-a9c1-33490d4da2f3",
-      "tls": {
-        "enabled": true,
-        "server_name": "zephyr-tw2.bpca2026.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/images"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
+        "🇩🇪 德国 (Germany) 01 (移动家宽) - djkyc",
+        "🇮🇩 印尼 (Indonesia) 02 (移动家宽) - djkyc",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - djkyc",
         "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - djkyc"
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - djkyc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - djkyc",
+        "🇩🇪 德国 (Germany) 01 (移动家宽) - djkyc",
+        "🇮🇩 印尼 (Indonesia) 02 (移动家宽) - djkyc",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - djkyc",
         "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - djkyc",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - djkyc",
-        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - djkyc"
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - djkyc"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

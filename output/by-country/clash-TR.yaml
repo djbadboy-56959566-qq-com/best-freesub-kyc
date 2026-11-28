@@ -5,12 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - djkyc
-  server: tr.subscriptionservice.ir
-  port: 2089
+  server: game.celvixo.ir
+  port: 2087
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lZZzfo1mqH7PqnloAogdi2XBhlgiofMy
+  type: vless
+  uuid: 6c645e26-b26b-4981-75ec-eeebe1c7de2e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cp.xelzano.ir
 proxy-groups:
 - name: PROXIES
   type: select

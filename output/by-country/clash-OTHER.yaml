@@ -5,21 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - djkyc
-  server: 188.114.99.137
-  port: 443
+  server: 104.21.91.53
+  port: 8443
   udp: true
   type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   tls: true
-  servername: vmess.lbw666.dpdns.org
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
+    path: /lMnsZUN4/
     headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select

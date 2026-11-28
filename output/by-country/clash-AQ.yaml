@@ -4,28 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇪 爱沙尼亚 (Estonia) 01 - djkyc
-  server: 196.198.111.166
-  port: 8443
+- name: 🇦🇶 AQ 01 - djkyc
+  server: 2.27.26.142
+  port: 443
   udp: true
   type: vless
-  uuid: f121ffc8-f6dc-4728-a871-a05e3f9cf8c5
+  uuid: 9fdec6be-b6b5-4f18-bac0-461cb7953ff0
   flow: xtls-rprx-vision
   tls: true
-  servername: usr-6b09ce88-api-v3.alcors.net
-  skip-cert-verify: false
+  reality-opts:
+    public-key: HKkU-5UanGjWdmX8E-EGulXMk1BnidkFsVveyyOlTg8
+    short-id: 90f9d05bf95cb335
+  servername: aq-1.global-cdn.org
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇪 爱沙尼亚 (Estonia) 01 - djkyc
+  - 🇦🇶 AQ 01 - djkyc
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇪 爱沙尼亚 (Estonia) 01 - djkyc
+  - 🇦🇶 AQ 01 - djkyc
 rules:
 - MATCH,PROXIES
